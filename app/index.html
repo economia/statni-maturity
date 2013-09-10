@@ -54,25 +54,26 @@
         }
         .graph .txt {
             position: absolute;
-            top: 3px;
+            top: 6px;
             display: block;
             width: 40px;
+            font-size: 0.8em;
         }
         .graph .txt.long {
             color: white;
         }
         .graph .left .txt.long {
-            left: 10px;
+            left: 7px;
         }
         .graph .left .txt.short {
-            left: -50px;
+            left: -47px;
             text-align: right;
         }
         .graph .right .txt.short {
-            right: -50px;
+            right: -47px;
         }
         .graph .right .txt.long {
-            right: 10px;
+            right: 7px;
             text-align: right;
         }
         #selectors {
@@ -241,7 +242,7 @@
         divs.select("span")
             .html(function(d) {return Math.round(d.percentage * 100) + "%"})
             .attr('class', function(d) {
-                if(xScale(d.percentage) < 50) {
+                if(xScale(d.percentage) < 45) {
                     return "txt short";
                 } else {
                     return "txt long";
