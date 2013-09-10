@@ -36,8 +36,10 @@
         }
         .graph .left,
         .graph .right {
+            background: white;
             position: absolute;
             width: 303px;
+            height: 330px;
             transition: 0.8s;
         }
         .graph .right {
@@ -111,7 +113,10 @@
         }
         #selectors {
             width: 650px;
-            position: relative;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            transition: 0.8s;
         }
         #selectors .left {
             position:  absolute;
@@ -147,21 +152,57 @@
             margin-top: -8px;
             font-size: 0.8em;
         }
+        #schoolList {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 650px;
+            height: 335px;
+            overflow: auto;
+            list-style: none;
+            padding-left: 0px;
+        }
+        #schoolList li {
+            position: relative;
+            margin-bottom: 5px;
+        }
+        #schoolList li .result {
+            display: block;
+            position: absolute;
+            top: 0px;
+            font-size: 0.7em;
+            color: white;
+            background: #E2007A;
+            padding: 2px 0px;
+            border-radius: 4px;
+            width: 30px;
+            text-align: center;
+        }
+        #schoolList li .nazev {
+            padding-left: 40px;
+        }
+        .list #selectors {
+            top: -300px;
+        }
         .list .graph .verticalMarks {
             top: -500px;
         }
         .list .graph .left {
             left: -500px;
         }
-
         .list .graph .right {
             right: -500px;
+        }
+        .list2 .graph {
+            display: none;
         }
     </style>
 </head>
 
 <body>
     <div id='selectors'></div>
+    <ul id='schoolList'></ul>
+    <div class="graph"></div>
 <script type="text/javascript">
     //vsechny krasy sveta prijdou sem
     var w = 650;
@@ -280,6 +321,9 @@
     }
     function update(group) {
         divs = group.selectAll('div.rect')
+        divs.on('click', function(d) {
+            displayList(d);
+        })
         divs.select("span")
             .html(function(d) {return Math.round(d.percentage * 100) + "%"})
             .attr('class', function(d) {
@@ -325,6 +369,28 @@
 
     function toggleGraphAndList() {
         $('body').toggleClass('list');
+        setTimeout(function() {
+            $('body').toggleClass('list2');
+        }, 800)
+    }
+    function displayList(group) {
+        schoolList.empty();
+        group.content.sort(function(schoolA, schoolB) {
+            return schoolB[predmet] - schoolA[predmet];
+        });
+        var listItem = schoolList.selectAll('li')
+            .data(group.content)
+            .enter()
+            .append("li");
+        listItem.append('span')
+            .attr('class', 'nazev')
+            .html(function(d) { return d.nazev; });
+
+        listItem.append('span')
+            .attr('class', 'result')
+            .html(function(d) { return Math.round(d[predmet]) + "%"; });
+
+        toggleGraphAndList();
     }
 
     var histogram = d3.layout.histogram()
@@ -337,14 +403,12 @@
         .domain([0,1,2,3,4,5,6,7,8,9])
         .rangeRoundBands([h, 0], 0.05);
 
-    var svg = d3.select("body")
-            .append("div")
-            .attr('class', 'graph')
-
+    var svg = d3.select("div.graph")
     var bars_right = svg.append('div')
         .attr('class', 'right')
     var bars_left = svg.append('div')
         .attr('class', 'left');
+    var schoolList = d3.select('#schoolList');
     bars_left.oppositeGroup = bars_right;
     bars_right.oppositeGroup = bars_left;
     var axes = [20,40,60,80];
