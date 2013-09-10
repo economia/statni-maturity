@@ -22,11 +22,13 @@
         }
         .graph {
             position: absolute;
+            width: 650px;
+            height: 350px;
             top: 50px;
         }
         #legend-uspesnost {
             position: absolute;
-            top: 30px;
+            top: -18px;
             left: 0px;
             width: 650px;
             text-align: center;
@@ -36,10 +38,19 @@
         .graph .right {
             position: absolute;
             width: 303px;
+            transition: 0.8s;
+        }
+        .graph .right {
+            right: 0px;
         }
         .graph .rect {
             position: absolute;
             background: #85BEE6;
+        }
+        .graph .verticalMarks {
+            position: absolute;
+            top: 0px;
+            transition: 0.8s;
         }
         .graph .opposite {
             position: absolute;
@@ -114,12 +125,21 @@
             margin-top: -8px;
             font-size: 0.8em;
         }
+        .list .graph .verticalMarks {
+            top: -500px;
+        }
+        .list .graph .left {
+            left: -500px;
+        }
+
+        .list .graph .right {
+            right: -500px;
+        }
     </style>
 </head>
 
 <body>
     <div id='selectors'></div>
-    <div id='legend-uspesnost'>Úspěšnost</div>
 <script type="text/javascript">
     //vsechny krasy sveta prijdou sem
     var w = 650;
@@ -281,6 +301,11 @@
             })
             .style('height', yScale.rangeBand() + "px")
     }
+
+    function toggleGraphAndList() {
+        $('body').toggleClass('list');
+    }
+
     var histogram = d3.layout.histogram()
         .bins([0,10,20,30,40,50,60,70,80,90,100]);
     var xScale = d3.scale.linear()
@@ -297,7 +322,6 @@
 
     var bars_right = svg.append('div')
         .attr('class', 'right')
-        .style('left', ((w + centerMargin) / 2) + 'px');
     var bars_left = svg.append('div')
         .attr('class', 'left');
     bars_left.oppositeGroup = bars_right;
@@ -316,12 +340,18 @@
                 .append('span')
                     .html(function(d) { return "&nbsp;" + d + "%"});
     });
-    svg.selectAll('.marks')
+    var verticalMarks = svg.append('div')
+        .attr('class', 'verticalMarks');
+    verticalMarks.selectAll('.marks')
         .data([10,20,30,40,50,60,70,80,90, 100])
         .enter().append('div')
             .attr('class', 'marks')
             .html(function(d) { return d + "%" })
             .style('top', function(d, i) { return yScale(i)+"px" })
+    verticalMarks.append("div")
+        .html('Úspěšnost')
+        .attr('id', 'legend-uspesnost')
+
 </script>
 </body>
 
