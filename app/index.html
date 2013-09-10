@@ -26,8 +26,9 @@
 <body>
 <script type="text/javascript">
     //vsechny krasy sveta prijdou sem
-    var w = 550;
+    var w = 650;
     var h = 300;
+    var alldata = null;
     d3.csv('./okresy_vysledky.csv')
         .row(function(row) {
             return {
@@ -44,98 +45,61 @@
             }
         })
         .get(function(err, data) {
-            console.log(data);
+            alldata = data;
+            display(3100, 'matematika');
     });
-    var id = "praha";
-    var padding = 30;
-    var barPadding = 1;
+    function display(okres_id, predmet_property) {
+        var data = alldata.filter(function(row) {
+            return row.okres_id == okres_id;
+        }).map(function(row) {
+            return row[predmet_property];
+        });
+        var binned = histogram(data);
+        var lengths = binned.map(function(it) {return it.length});
+        xScale.domain([0, d3.max(lengths)]);
+        bars.selectAll('rect')
+            .data(binned)
+            .enter().append('rect');
+        update();
 
-    var xScale = d3.scale.ordinal()
-            .domain(d3.range(dataset[id].vysledky.length))
-            .rangeRoundBands([0, w], 0.05);
+    }
+    function update() {
+        bars.selectAll('rect')
+            .attr('x', 0)
+            .attr('y', 0)
+            .attr('width', 50)
+            .attr('height', 50)
+    }
+    var bins = [0,10,20,30,40,50,60,70,80,90,100];
+    var histogram = d3.layout.histogram()
+        .bins(bins);
 
-    var yScale = d3.scale.linear()
-            .domain([0, d3.max(dataset[id].vysledky)])
-            .range([0, h - 50]);
+    var xScale = d3.scale.linear()
+        .range(0, w);
 
-    //Define X axis
-    var xAxis = d3.svg.axis()
-            .scale(xScale)
-            .orient("bottom")
-            .tickValues(["0-9 %", "10-19 %", "20-29 %", "30-39 %", "40-49 %", "50-59 %", "60-69 %", "70-79 %", "80-89 %", "90-100 %"])
-            .tickSize(6, 3, 0);
+    var yScale = d3.scale.ordinal()
+        .domain(bins)
+        .rangeRoundBands([0, h], 0.05);
 
     var svg = d3.select("body")
             .append("svg")
             .attr("width", w)
             .attr("height", h);
 
+    var bars = svg.append('g');
 
-    svg.selectAll("rect")
-            .data(dataset[id].vysledky)
-            .enter()
-            .append("rect")
-            .attr("x", function (d, i) {
-                return xScale(i);
-            })
-            .attr("y", function (d) {
-                return h - 40 - yScale(d);
-            })
-            .attr("width", xScale.rangeBand())
-            .attr("height", function (d) {
-                return yScale(d);
-            })
-            .attr("fill", "#2F6083");
+    (function () {
+        //Define X axis
+        var xAxis = d3.svg.axis()
+                .scale(xScale)
+                .orient("bottom")
+                .tickValues(["0-9 %", "10-19 %", "20-29 %", "30-39 %", "40-49 %", "50-59 %", "60-69 %", "70-79 %", "80-89 %", "90-100 %"])
+                .tickSize(6, 3, 0);
 
-    svg.selectAll("text")
-            .data(dataset[id].vysledky)
-            .enter()
-            .append("text")
-            .text(function (d) {
-                return d;
-            })
-            .attr("text-anchor", "middle")
-            .attr("x", function (d, i) {
-                return xScale(i) + xScale.rangeBand() / 2;
-            })
-            .attr("y", function (d) {
-                if (yScale(d) < 10) {
-                    return h - 40 - (yScale(d));
-                } else {
-                    return h - 15 - (yScale(d));
-                }
-
-            })
-            .attr("font-family", "sans-serif")
-            .attr("font-size", "20px")
-            .attr("font-weight", "bold")
-            .attr("fill", "#C0DECB");
-
-    //Create X axis
-    svg.append("g")
-            .attr("class", "axis")
-            .attr("transform", "translate(0," + (h - padding) + ")")
-            .call(xAxis);
-    //update
-    function updater(ident) {
-        id = ident;
-        svg.selectAll("rect")
-                .data(dataset[id].vysledky)
-                .transition()
-                .attr("x", function (d, i) {
-                    return xScale(i);
-                })
-                .attr("y", function (d) {
-                    return h - 40 - yScale(d);
-                })
-                .attr("width", xScale.rangeBand())
-                .attr("height", function (d) {
-                    return yScale(d);
-                })
-                .attr("fill", "#2F6083");
         svg.selectAll("text")
                 .data(dataset[id].vysledky)
-                .transition()
+                .enter()
+                .append("text")
                 .text(function (d) {
                     return d;
                 })
@@ -149,8 +113,19 @@
                     } else {
                         return h - 15 - (yScale(d));
                     }
-                });
-    };
+
+                })
+                .attr("font-family", "sans-serif")
+                .attr("font-size", "20px")
+                .attr("font-weight", "bold")
+                .attr("fill", "#C0DECB");
+
+        //Create X axis
+        svg.append("g")
+                .attr("class", "axis")
+                .attr("transform", "translate(0," + (h - padding) + ")")
+                .call(xAxis);
+    })
 </script>
 <button onclick="updater('stredocesky')">Středočeský</button>
 <button onclick="updater('praha')">Praha</button>
