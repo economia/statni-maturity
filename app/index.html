@@ -66,16 +66,17 @@
     function update() {
         bars.selectAll('rect')
             .attr('x', 0)
-            .attr('y', 0)
-            .attr('width', 50)
-            .attr('height', 50)
+            .attr('y', function(d, i) {return yScale(i)})
+            .attr('width', function(d) {
+                return xScale(d.length)})
+            .attr('height', yScale.rangeBand())
     }
     var bins = [0,10,20,30,40,50,60,70,80,90,100];
     var histogram = d3.layout.histogram()
         .bins(bins);
 
     var xScale = d3.scale.linear()
-        .range(0, w);
+        .range([0, w]);
 
     var yScale = d3.scale.ordinal()
         .domain(bins)
