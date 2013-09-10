@@ -47,6 +47,13 @@
             position: absolute;
             background: #85BEE6;
         }
+        .graph .rect:hover {
+            background: #AFD4EE;
+            cursor: pointer;
+        }
+        .graph .rect:active {
+            background: #2375AE;
+        }
         .graph .verticalMarks {
             position: absolute;
             top: 0px;
@@ -57,6 +64,12 @@
             background: #5AA7DD;
             top: 0px;
         }
+        .graph .rect:hover .opposite {
+            background: #9AC9EA;
+        }
+        .graph .rect:active .opposite {
+            background: #1F6699;
+        }
         .graph .left .opposite {
             right: 0px;
         }
@@ -65,7 +78,9 @@
         }
         .graph .txt {
             position: absolute;
-            top: 6px;
+            top: 0px;
+            padding-top: 6px;
+            padding-bottom: 6px;
             display: block;
             width: 40px;
             font-size: 0.8em;
@@ -74,14 +89,17 @@
             color: white;
         }
         .graph .left .txt.long {
-            left: 7px;
+            padding-left: 7px;
+            left: 0px;
         }
         .graph .left .txt.short {
             left: -47px;
+            padding-right: 7px;
             text-align: right;
         }
         .graph .right .txt.short {
             right: -47px;
+            padding-left: 7px;
         }
         .graph .right .txt.long {
             right: 7px;
@@ -177,7 +195,7 @@
             drawOkresSelectors(okresy);
             drawPredmetSelector();
             display(bars_right, 3100, predmet);
-            display(bars_left, 3100, predmet);
+            display(bars_left, 3702, predmet);
             update(bars_right);
             update(bars_left);
     });
