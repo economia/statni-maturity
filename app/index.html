@@ -19,13 +19,12 @@
         }
         .graph {
             position: absolute;
+            top: 40px;
         }
         .graph .left,
         .graph .right {
-            top: 40px;
             position: absolute;
-            width: 324px;
-            height: 20px;
+            width: 303px;
         }
         .graph .left .rect, .graph .right .rect {
             position: absolute;
@@ -84,6 +83,14 @@
             text-align: center;
             font-size: 0.8em;
         }
+        .marks {
+            position: absolute;
+            left: 303px;
+            width: 44px;
+            text-align: center;
+            margin-top: -8px;
+            font-size: 0.8em;
+        }
     </style>
 </head>
 
@@ -93,7 +100,7 @@
     //vsechny krasy sveta prijdou sem
     var w = 650;
     var h = 300;
-    var centerMargin = 2;
+    var centerMargin = 44;
     var alldata = null;
     var okresy_ids = [];
     var okresy_nazvy = [];
@@ -259,8 +266,13 @@
                     })
                 .append('span')
                     .html(function(d) { return "&nbsp;" + d + "%"});
-
     });
+    svg.selectAll('.marks')
+        .data([10,20,30,40,50,60,70,80,90, 100])
+        .enter().append('div')
+            .attr('class', 'marks')
+            .html(function(d) { return d + "%" })
+            .style('top', function(d, i) { return yScale(i)+"px" })
 </script>
 </body>
 
