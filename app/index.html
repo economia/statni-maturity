@@ -25,30 +25,30 @@
             top: 40px;
             position: relative;
         }
-        .graph .left div, .graph .right div {
+        .graph .left .rect, .graph .right .rect {
             position: absolute;
             background: black;
         }
-        .graph span {
+        .graph .txt {
             position: absolute;
             top: 3px;
             display: block;
             width: 40px;
         }
-        .graph span.long {
+        .graph .txt.long {
             color: white;
         }
-        .graph .left span.long {
+        .graph .left .txt.long {
             left: 10px;
         }
-        .graph .left span.short {
+        .graph .left .txt.short {
             left: -50px;
             text-align: right;
         }
-        .graph .right span.short {
+        .graph .right .txt.short {
             right: -50px;
         }
-        .graph .right span.long {
+        .graph .right .txt.long {
             right: 10px;
             text-align: right;
         }
@@ -194,12 +194,14 @@
             .html(function(d) {return d.count})
             .attr('class', function(d) {
                 if(xScale(d.percentage) < 30) {
-                    return "short";
+                    return "txt short";
                 } else {
-                    return "long";
+                    return "txt long";
                 }
             })
-        divs.transition()
+        divs
+            .attr('class', 'rect')
+            .transition()
             .duration(800)
             .style('left', function(d) {
                 if (group === bars_right) {
