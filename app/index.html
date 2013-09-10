@@ -41,6 +41,10 @@
             position:  absolute;
             right: 0px;
         }
+        #selectors > .chosen-container {
+            position: absolute;
+            left: 222px;
+        }
         .axis path, .axis line {
             fill: none;
             stroke: black;
@@ -137,6 +141,7 @@
                 .val(it.id)
                 .appendTo($select)
         });
+        $select.chosen();
     }
     function display(group, okres_id, predmet_property) {
         var data = alldata.filter(function(row) {
