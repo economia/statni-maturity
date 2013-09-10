@@ -46,9 +46,9 @@
         })
         .get(function(err, data) {
             alldata = data;
-            display(3100, 'matematika');
+            display(bars, 3100, 'matematika');
     });
-    function display(okres_id, predmet_property) {
+    function display(group, okres_id, predmet_property) {
         var data = alldata.filter(function(row) {
             return row.okres_id == okres_id;
         }).map(function(row) {
@@ -56,14 +56,14 @@
         });
         var binned = histogram(data);
         var lengths = binned.map(function(it) {return it.length});
-        bars.selectAll('rect')
+        group.selectAll('rect')
             .data(binned)
             .enter().append('rect');
-        update();
+        update(group);
 
     }
-    function update() {
-        bars.selectAll('rect')
+    function update(group) {
+        group.selectAll('rect')
             .attr('x', 0)
             .attr('y', function(d, i) {return yScale(i)})
             .attr('width', function(d) {
