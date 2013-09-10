@@ -32,7 +32,6 @@
         #selectors {
             width: 650px;
             position: relative;
-            background:  red;
         }
         #selectors .left {
             position:  absolute;
@@ -64,6 +63,7 @@
     var alldata = null;
     var okresy_ids = [];
     var okresy_nazvy = [];
+    var predmet = 'matematika';
     d3.csv('./okresy_vysledky.csv')
         .row(function(row) {
             var okres_id = +row['KODOK'];
@@ -89,20 +89,22 @@
             var okresy = okresy_ids.map(function(id, index) {
                 return {id: id, nazev: okresy_nazvy[index]};
             })
-            drawSelectors(okresy);
-            display(bars_right, 3100, 'matematika');
-            display(bars_left, 3100, 'matematika');
+            drawOkresSelectors(okresy);
+            drawPredmetSelector();
+            display(bars_right, 3100, predmet);
+            display(bars_left, 3100, predmet);
     });
-    function drawSelectors(okresy) {
+    function drawOkresSelectors(okresy) {
         ['left', 'right'].forEach(function(it) {
             var $parent = $("<div></div>")
                 .appendTo($('#selectors'))
+                .addClass('okres')
                 .addClass(it);
             var bars = it == 'left' ? bars_left : bars_right;
             var $select = $("<select>")
                 .appendTo($parent)
                 .on('change', function() {
-                    display(bars, this.value, 'matematika');
+                    display(bars, this.value, predmet);
                 });
             okresy.forEach(function(it) {
                 $("<option></option>")
@@ -111,7 +113,29 @@
                     .appendTo($select)
             })
             $select.chosen();
-
+        });
+    }
+    function drawPredmetSelector() {
+        var predmety = [
+            {id: 'matematika',    nazev: "Matematika"},
+            {id: 'cestina_test',  nazev: "Český jazyk, didaktický test"},
+            {id: 'cestina_prace', nazev: "Český jazyk, písemná prace"},
+            {id: 'cestina_ustni', nazev: "Český jazyk, ústní zkoušení"},
+            {id: 'aj_test',       nazev: "Anglický jazyk, didaktický test"},
+            {id: 'aj_prace',      nazev: "Anglický jazyk, písemná prace"},
+            {id: 'aj_ustni',      nazev: "Anglický jazyk, ústní zkoušení"}
+        ];
+        var $select = $("<select></select>")
+            .appendTo($("#selectors"))
+            .on('change', function() {
+                predmet = this.value;
+                $("#selectors .okres select").trigger('change');
+            });
+        predmety.forEach(function(it) {
+            $("<option></option>")
+                .html(it.nazev)
+                .val(it.id)
+                .appendTo($select)
         });
     }
     function display(group, okres_id, predmet_property) {
