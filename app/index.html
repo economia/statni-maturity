@@ -253,9 +253,10 @@
     function display(group, okres_id, predmet_property) {
         var data = alldata.filter(function(row) {
             return row.okres_id == okres_id;
-        }).map(function(row) {
+        })
+        histogram.value(function(row) {
             return row[predmet_property];
-        });
+        })
         var binned = histogram(data);
         var sum = binned.reduce(function(partial, it) {
             return partial += it.length
