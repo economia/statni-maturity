@@ -88,45 +88,6 @@
             .attr("height", h);
 
     var bars = svg.append('g');
-
-    (function () {
-        //Define X axis
-        var xAxis = d3.svg.axis()
-                .scale(xScale)
-                .orient("bottom")
-                .tickValues(["0-9 %", "10-19 %", "20-29 %", "30-39 %", "40-49 %", "50-59 %", "60-69 %", "70-79 %", "80-89 %", "90-100 %"])
-                .tickSize(6, 3, 0);
-
-        svg.selectAll("text")
-                .data(dataset[id].vysledky)
-                .enter()
-                .append("text")
-                .text(function (d) {
-                    return d;
-                })
-                .attr("text-anchor", "middle")
-                .attr("x", function (d, i) {
-                    return xScale(i) + xScale.rangeBand() / 2;
-                })
-                .attr("y", function (d) {
-                    if (yScale(d) < 10) {
-                        return h - 40 - (yScale(d));
-                    } else {
-                        return h - 15 - (yScale(d));
-                    }
-
-                })
-                .attr("font-family", "sans-serif")
-                .attr("font-size", "20px")
-                .attr("font-weight", "bold")
-                .attr("fill", "#C0DECB");
-
-        //Create X axis
-        svg.append("g")
-                .attr("class", "axis")
-                .attr("transform", "translate(0," + (h - padding) + ")")
-                .call(xAxis);
-    })
 </script>
 <button onclick="updater('stredocesky')">Středočeský</button>
 <button onclick="updater('praha')">Praha</button>
