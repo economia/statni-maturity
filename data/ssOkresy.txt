@@ -1,0 +1,1335 @@
+red_izo,KODOK,NAZKR,NAZOK
+600004589,3100,Hlavní město Praha,Hlavní město Praha
+600004708,3100,Hlavní město Praha,Hlavní město Praha
+600005615,3100,Hlavní město Praha,Hlavní město Praha
+600004686,3100,Hlavní město Praha,Hlavní město Praha
+651037026,3100,Hlavní město Praha,Hlavní město Praha
+600020711,3100,Hlavní město Praha,Hlavní město Praha
+600004546,3100,Hlavní město Praha,Hlavní město Praha
+600004635,3100,Hlavní město Praha,Hlavní město Praha
+600004694,3100,Hlavní město Praha,Hlavní město Praha
+600020738,3100,Hlavní město Praha,Hlavní město Praha
+600004597,3100,Hlavní město Praha,Hlavní město Praha
+600004678,3100,Hlavní město Praha,Hlavní město Praha
+600004520,3100,Hlavní město Praha,Hlavní město Praha
+600004554,3100,Hlavní město Praha,Hlavní město Praha
+600020746,3100,Hlavní město Praha,Hlavní město Praha
+600004643,3100,Hlavní město Praha,Hlavní město Praha
+600020151,3100,Hlavní město Praha,Hlavní město Praha
+600004562,3100,Hlavní město Praha,Hlavní město Praha
+600004619,3100,Hlavní město Praha,Hlavní město Praha
+600004627,3100,Hlavní město Praha,Hlavní město Praha
+600020665,3100,Hlavní město Praha,Hlavní město Praha
+600020720,3100,Hlavní město Praha,Hlavní město Praha
+600004791,3100,Hlavní město Praha,Hlavní město Praha
+600019454,3100,Hlavní město Praha,Hlavní město Praha
+600004759,3100,Hlavní město Praha,Hlavní město Praha
+600004830,3100,Hlavní město Praha,Hlavní město Praha
+600020797,3100,Hlavní město Praha,Hlavní město Praha
+651027349,3100,Hlavní město Praha,Hlavní město Praha
+600004724,3100,Hlavní město Praha,Hlavní město Praha
+600027341,3100,Hlavní město Praha,Hlavní město Praha
+610380061,3100,Hlavní město Praha,Hlavní město Praha
+600004813,3100,Hlavní město Praha,Hlavní město Praha
+600004775,3100,Hlavní město Praha,Hlavní město Praha
+600020827,3100,Hlavní město Praha,Hlavní město Praha
+600004902,3100,Hlavní město Praha,Hlavní město Praha
+600004864,3100,Hlavní město Praha,Hlavní město Praha
+600005321,3100,Hlavní město Praha,Hlavní město Praha
+600004783,3100,Hlavní město Praha,Hlavní město Praha
+600004848,3100,Hlavní město Praha,Hlavní město Praha
+600004856,3100,Hlavní město Praha,Hlavní město Praha
+600020789,3100,Hlavní město Praha,Hlavní město Praha
+600020819,3100,Hlavní město Praha,Hlavní město Praha
+600006425,3100,Hlavní město Praha,Hlavní město Praha
+600004996,3100,Hlavní město Praha,Hlavní město Praha
+600001873,3100,Hlavní město Praha,Hlavní město Praha
+600004911,3100,Hlavní město Praha,Hlavní město Praha
+600004961,3100,Hlavní město Praha,Hlavní město Praha
+600004929,3100,Hlavní město Praha,Hlavní město Praha
+600005941,3100,Hlavní město Praha,Hlavní město Praha
+600005003,3100,Hlavní město Praha,Hlavní město Praha
+600004970,3100,Hlavní město Praha,Hlavní město Praha
+600004945,3100,Hlavní město Praha,Hlavní město Praha
+651040370,3100,Hlavní město Praha,Hlavní město Praha
+600005216,3100,Hlavní město Praha,Hlavní město Praha
+600005305,3100,Hlavní město Praha,Hlavní město Praha
+651015995,3100,Hlavní město Praha,Hlavní město Praha
+600005381,3100,Hlavní město Praha,Hlavní město Praha
+600005054,3100,Hlavní město Praha,Hlavní město Praha
+600005259,3100,Hlavní město Praha,Hlavní město Praha
+600005186,3100,Hlavní město Praha,Hlavní město Praha
+600005411,3100,Hlavní město Praha,Hlavní město Praha
+600005429,3100,Hlavní město Praha,Hlavní město Praha
+600005178,3100,Hlavní město Praha,Hlavní město Praha
+600004821,3100,Hlavní město Praha,Hlavní město Praha
+691000468,3100,Hlavní město Praha,Hlavní město Praha
+600005208,3100,Hlavní město Praha,Hlavní město Praha
+600005046,3100,Hlavní město Praha,Hlavní město Praha
+600005089,3100,Hlavní město Praha,Hlavní město Praha
+600005143,3100,Hlavní město Praha,Hlavní město Praha
+600005348,3100,Hlavní město Praha,Hlavní město Praha
+600005267,3100,Hlavní město Praha,Hlavní město Praha
+600005364,3100,Hlavní město Praha,Hlavní město Praha
+600005151,3100,Hlavní město Praha,Hlavní město Praha
+600005453,3100,Hlavní město Praha,Hlavní město Praha
+600005241,3100,Hlavní město Praha,Hlavní město Praha
+650008791,3100,Hlavní město Praha,Hlavní město Praha
+600005445,3100,Hlavní město Praha,Hlavní město Praha
+600005071,3100,Hlavní město Praha,Hlavní město Praha
+600020959,3100,Hlavní město Praha,Hlavní město Praha
+600005461,3100,Hlavní město Praha,Hlavní město Praha
+651036101,3100,Hlavní město Praha,Hlavní město Praha
+650075684,3100,Hlavní město Praha,Hlavní město Praha
+600005275,3100,Hlavní město Praha,Hlavní město Praha
+600005356,3100,Hlavní město Praha,Hlavní město Praha
+600005291,3100,Hlavní město Praha,Hlavní město Praha
+600005399,3100,Hlavní město Praha,Hlavní město Praha
+600005402,3100,Hlavní město Praha,Hlavní město Praha
+600019462,3100,Hlavní město Praha,Hlavní město Praha
+600020916,3100,Hlavní město Praha,Hlavní město Praha
+600021327,3100,Hlavní město Praha,Hlavní město Praha
+651028922,3100,Hlavní město Praha,Hlavní město Praha
+600004872,3100,Hlavní město Praha,Hlavní město Praha
+600005585,3100,Hlavní město Praha,Hlavní město Praha
+600005518,3100,Hlavní město Praha,Hlavní město Praha
+600005666,3100,Hlavní město Praha,Hlavní město Praha
+600005569,3100,Hlavní město Praha,Hlavní město Praha
+600171418,3100,Hlavní město Praha,Hlavní město Praha
+600005534,3100,Hlavní město Praha,Hlavní město Praha
+691000212,3100,Hlavní město Praha,Hlavní město Praha
+600005500,3100,Hlavní město Praha,Hlavní město Praha
+600005496,3100,Hlavní město Praha,Hlavní město Praha
+600005623,3100,Hlavní město Praha,Hlavní město Praha
+600005631,3100,Hlavní město Praha,Hlavní město Praha
+650004639,3100,Hlavní město Praha,Hlavní město Praha
+600005542,3100,Hlavní město Praha,Hlavní město Praha
+600005674,3100,Hlavní město Praha,Hlavní město Praha
+600005640,3100,Hlavní město Praha,Hlavní město Praha
+600021050,3100,Hlavní město Praha,Hlavní město Praha
+600171426,3100,Hlavní město Praha,Hlavní město Praha
+600005658,3100,Hlavní město Praha,Hlavní město Praha
+650065115,3100,Hlavní město Praha,Hlavní město Praha
+691001111,3100,Hlavní město Praha,Hlavní město Praha
+600021106,3100,Hlavní město Praha,Hlavní město Praha
+600005810,3100,Hlavní město Praha,Hlavní město Praha
+600005593,3100,Hlavní město Praha,Hlavní město Praha
+600006158,3100,Hlavní město Praha,Hlavní město Praha
+600005691,3100,Hlavní město Praha,Hlavní město Praha
+600005682,3100,Hlavní město Praha,Hlavní město Praha
+600005771,3100,Hlavní město Praha,Hlavní město Praha
+600005721,3100,Hlavní město Praha,Hlavní město Praha
+600005747,3100,Hlavní město Praha,Hlavní město Praha
+600005828,3100,Hlavní město Praha,Hlavní město Praha
+600005844,3100,Hlavní město Praha,Hlavní město Praha
+600005984,3100,Hlavní město Praha,Hlavní město Praha
+600006409,3100,Hlavní město Praha,Hlavní město Praha
+651040744,3100,Hlavní město Praha,Hlavní město Praha
+600005895,3100,Hlavní město Praha,Hlavní město Praha
+600171701,3100,Hlavní město Praha,Hlavní město Praha
+600170012,3100,Hlavní město Praha,Hlavní město Praha
+600005551,3100,Hlavní město Praha,Hlavní město Praha
+600005861,3100,Hlavní město Praha,Hlavní město Praha
+600005950,3100,Hlavní město Praha,Hlavní město Praha
+600006034,3100,Hlavní město Praha,Hlavní město Praha
+600006077,3100,Hlavní město Praha,Hlavní město Praha
+650025563,3100,Hlavní město Praha,Hlavní město Praha
+600005101,3100,Hlavní město Praha,Hlavní město Praha
+600006051,3100,Hlavní město Praha,Hlavní město Praha
+600006018,3100,Hlavní město Praha,Hlavní město Praha
+600006085,3100,Hlavní město Praha,Hlavní město Praha
+600005933,3100,Hlavní město Praha,Hlavní město Praha
+600005992,3100,Hlavní město Praha,Hlavní město Praha
+600005976,3100,Hlavní město Praha,Hlavní město Praha
+600005968,3100,Hlavní město Praha,Hlavní město Praha
+600021181,3100,Hlavní město Praha,Hlavní město Praha
+600006042,3100,Hlavní město Praha,Hlavní město Praha
+600006000,3100,Hlavní město Praha,Hlavní město Praha
+600006310,3100,Hlavní město Praha,Hlavní město Praha
+600006026,3100,Hlavní město Praha,Hlavní město Praha
+600170021,3100,Hlavní město Praha,Hlavní město Praha
+610380273,3100,Hlavní město Praha,Hlavní město Praha
+610380109,3100,Hlavní město Praha,Hlavní město Praha
+600006301,3100,Hlavní město Praha,Hlavní město Praha
+600006433,3100,Hlavní město Praha,Hlavní město Praha
+600021211,3100,Hlavní město Praha,Hlavní město Praha
+600005798,3100,Hlavní město Praha,Hlavní město Praha
+600006298,3100,Hlavní město Praha,Hlavní město Praha
+600006239,3100,Hlavní město Praha,Hlavní město Praha
+600006255,3100,Hlavní město Praha,Hlavní město Praha
+600006140,3100,Hlavní město Praha,Hlavní město Praha
+600006174,3100,Hlavní město Praha,Hlavní město Praha
+600006131,3100,Hlavní město Praha,Hlavní město Praha
+600006107,3100,Hlavní město Praha,Hlavní město Praha
+600006115,3100,Hlavní město Praha,Hlavní město Praha
+600006166,3100,Hlavní město Praha,Hlavní město Praha
+600006247,3100,Hlavní město Praha,Hlavní město Praha
+600006352,3100,Hlavní město Praha,Hlavní město Praha
+600005836,3100,Hlavní město Praha,Hlavní město Praha
+600170071,3100,Hlavní město Praha,Hlavní město Praha
+600170047,3100,Hlavní město Praha,Hlavní město Praha
+600006280,3100,Hlavní město Praha,Hlavní město Praha
+600006379,3100,Hlavní město Praha,Hlavní město Praha
+600006387,3100,Hlavní město Praha,Hlavní město Praha
+600006328,3100,Hlavní město Praha,Hlavní město Praha
+600006450,3100,Hlavní město Praha,Hlavní město Praha
+600006441,3100,Hlavní město Praha,Hlavní město Praha
+600006123,3100,Hlavní město Praha,Hlavní město Praha
+600170063,3100,Hlavní město Praha,Hlavní město Praha
+600006654,3100,Hlavní město Praha,Hlavní město Praha
+600006263,3100,Hlavní město Praha,Hlavní město Praha
+600170039,3100,Hlavní město Praha,Hlavní město Praha
+600027686,3100,Hlavní město Praha,Hlavní město Praha
+600006476,3100,Hlavní město Praha,Hlavní město Praha
+600021360,3100,Hlavní město Praha,Hlavní město Praha
+600005160,3100,Hlavní město Praha,Hlavní město Praha
+600006603,3100,Hlavní město Praha,Hlavní město Praha
+600006620,3100,Hlavní město Praha,Hlavní město Praha
+600006549,3100,Hlavní město Praha,Hlavní město Praha
+600006531,3100,Hlavní město Praha,Hlavní město Praha
+600006646,3100,Hlavní město Praha,Hlavní město Praha
+600171710,3100,Hlavní město Praha,Hlavní město Praha
+600004741,3100,Hlavní město Praha,Hlavní město Praha
+600006573,3100,Hlavní město Praha,Hlavní město Praha
+600006581,3100,Hlavní město Praha,Hlavní město Praha
+600006514,3100,Hlavní město Praha,Hlavní město Praha
+600170080,3100,Hlavní město Praha,Hlavní město Praha
+600006638,3100,Hlavní město Praha,Hlavní město Praha
+600006662,3100,Hlavní město Praha,Hlavní město Praha
+600006565,3100,Hlavní město Praha,Hlavní město Praha
+600019471,3100,Hlavní město Praha,Hlavní město Praha
+600006786,3201,Středočeský,Benešov
+600006671,3201,Středočeský,Benešov
+600170098,3201,Středočeský,Benešov
+600006727,3201,Středočeský,Benešov
+600006735,3201,Středočeský,Benešov
+600006794,3201,Středočeský,Benešov
+600019489,3201,Středočeský,Benešov
+600006689,3201,Středočeský,Benešov
+600042260,3201,Středočeský,Benešov
+600006778,3201,Středočeský,Benešov
+600006751,3201,Středočeský,Benešov
+600006701,3201,Středočeský,Benešov
+600006760,3201,Středočeský,Benešov
+600006697,3201,Středočeský,Benešov
+600006859,3202,Středočeský,Beroun
+651027888,3202,Středočeský,Beroun
+650004311,3202,Středočeský,Beroun
+600006808,3202,Středočeský,Beroun
+600006832,3202,Středočeský,Beroun
+600019497,3202,Středočeský,Beroun
+600021491,3202,Středočeský,Beroun
+600006816,3202,Středočeský,Beroun
+600006841,3202,Středočeský,Beroun
+600170128,3203,Středočeský,Kladno
+600006930,3203,Středočeský,Kladno
+600007162,3203,Středočeský,Kladno
+651036020,3203,Středočeský,Kladno
+600021661,3203,Středočeský,Kladno
+600006972,3203,Středočeský,Kladno
+600007065,3203,Středočeský,Kladno
+600007073,3203,Středočeský,Kladno
+600171728,3203,Středočeský,Kladno
+600006905,3203,Středočeský,Kladno
+600006964,3203,Středočeský,Kladno
+600020207,3203,Středočeský,Kladno
+600019519,3203,Středočeský,Kladno
+600006913,3203,Středočeský,Kladno
+600170110,3203,Středočeský,Kladno
+600006921,3203,Středočeský,Kladno
+600021637,3203,Středočeský,Kladno
+600007022,3203,Středočeský,Kladno
+691004927,3203,Středočeský,Kladno
+600007057,3203,Středočeský,Kladno
+651036062,3203,Středočeský,Kladno
+600007138,3204,Středočeský,Kolín
+600007120,3204,Středočeský,Kolín
+600021670,3204,Středočeský,Kolín
+600019527,3204,Středočeský,Kolín
+600170136,3204,Středočeský,Kolín
+600007154,3204,Středočeský,Kolín
+600007081,3204,Středočeský,Kolín
+600007090,3204,Středočeský,Kolín
+600007146,3204,Středočeský,Kolín
+600007189,3204,Středočeský,Kolín
+600007171,3204,Středočeský,Kolín
+600021742,3204,Středočeský,Kolín
+600170144,3204,Středočeský,Kolín
+610450671,3204,Středočeský,Kolín
+600007243,3205,Středočeský,Kutná Hora
+600007260,3205,Středočeský,Kutná Hora
+600007201,3205,Středočeský,Kutná Hora
+600007278,3205,Středočeský,Kutná Hora
+600007251,3205,Středočeský,Kutná Hora
+600021807,3205,Středočeský,Kutná Hora
+600007197,3205,Středočeský,Kutná Hora
+600007219,3205,Středočeský,Kutná Hora
+600007294,3205,Středočeský,Kutná Hora
+600007286,3205,Středočeský,Kutná Hora
+600021785,3205,Středočeský,Kutná Hora
+600007332,3206,Středočeský,Mělník
+600007359,3206,Středočeský,Mělník
+600007391,3206,Středočeský,Mělník
+600007383,3206,Středočeský,Mělník
+600007316,3206,Středočeský,Mělník
+600170161,3206,Středočeský,Mělník
+600019535,3206,Středočeský,Mělník
+600007375,3206,Středočeský,Mělník
+691002037,3206,Středočeský,Mělník
+600007308,3206,Středočeský,Mělník
+610450620,3206,Středočeský,Mělník
+600007511,3207,Středočeský,Mladá Boleslav
+600007537,3207,Středočeský,Mladá Boleslav
+600007502,3207,Středočeský,Mladá Boleslav
+600007413,3207,Středočeský,Mladá Boleslav
+600170179,3207,Středočeský,Mladá Boleslav
+600007529,3207,Středočeský,Mladá Boleslav
+610451049,3207,Středočeský,Mladá Boleslav
+600007464,3207,Středočeský,Mladá Boleslav
+600007472,3207,Středočeský,Mladá Boleslav
+650075277,3207,Středočeský,Mladá Boleslav
+600007499,3207,Středočeský,Mladá Boleslav
+600007481,3207,Středočeský,Mladá Boleslav
+600007448,3207,Středočeský,Mladá Boleslav
+600019543,3207,Středočeský,Mladá Boleslav
+600007545,3207,Středočeský,Mladá Boleslav
+600007421,3207,Středočeský,Mladá Boleslav
+651018048,3207,Středočeský,Mladá Boleslav
+610450956,3208,Středočeský,Nymburk
+600007669,3208,Středočeský,Nymburk
+600007651,3208,Středočeský,Nymburk
+691002673,3208,Středočeský,Nymburk
+600007642,3208,Středočeský,Nymburk
+600007634,3208,Středočeský,Nymburk
+600170195,3208,Středočeský,Nymburk
+600007618,3208,Středočeský,Nymburk
+600019551,3208,Středočeský,Nymburk
+600007570,3208,Středočeský,Nymburk
+600007553,3208,Středočeský,Nymburk
+600007561,3208,Středočeský,Nymburk
+600007685,3208,Středočeský,Nymburk
+600007600,3208,Středočeský,Nymburk
+600007774,3209,Středočeský,Praha-východ
+600007731,3209,Středočeský,Praha-východ
+600170209,3209,Středočeský,Praha-východ
+600007693,3209,Středočeský,Praha-východ
+600007782,3209,Středočeský,Praha-východ
+600171761,3209,Středočeský,Praha-východ
+600021696,3209,Středočeský,Praha-východ
+600007707,3209,Středočeský,Praha-východ
+610451219,3209,Středočeský,Praha-východ
+600007766,3209,Středočeský,Praha-východ
+650068955,3209,Středočeský,Praha-východ
+691003921,3209,Středočeský,Praha-východ
+600022064,3209,Středočeský,Praha-východ
+691004498,3210,Středočeský,Praha-západ
+691002339,3210,Středočeský,Praha-západ
+600007804,3210,Středočeský,Praha-západ
+651024617,3210,Středočeský,Praha-západ
+600007791,3210,Středočeský,Praha-západ
+600170217,3210,Středočeský,Praha-západ
+600007871,3211,Středočeský,Příbram
+600007812,3211,Středočeský,Příbram
+600007910,3211,Středočeský,Příbram
+600007821,3211,Středočeský,Příbram
+610451251,3211,Středočeský,Příbram
+600007839,3211,Středočeský,Příbram
+600019560,3211,Středočeský,Příbram
+600170225,3211,Středočeský,Příbram
+600007847,3211,Středočeský,Příbram
+600170233,3211,Středočeský,Příbram
+600007928,3211,Středočeský,Příbram
+600007855,3211,Středočeský,Příbram
+600007898,3211,Středočeský,Příbram
+600007901,3211,Středočeský,Příbram
+600007880,3211,Středočeský,Příbram
+600027970,3211,Středočeský,Příbram
+600170268,3212,Středočeský,Rakovník
+600171469,3212,Středočeský,Rakovník
+600007979,3212,Středočeský,Rakovník
+600007961,3212,Středočeský,Rakovník
+600007944,3212,Středočeský,Rakovník
+600007952,3212,Středočeský,Rakovník
+600170250,3212,Středočeský,Rakovník
+600007987,3212,Středočeský,Rakovník
+600022188,3212,Středočeský,Rakovník
+600170241,3212,Středočeský,Rakovník
+600007936,3212,Středočeský,Rakovník
+600020231,3301,Jihočeský,České Budějovice
+600008088,3301,Jihočeský,České Budějovice
+600008100,3301,Jihočeský,České Budějovice
+600008096,3301,Jihočeský,České Budějovice
+600008266,3301,Jihočeský,České Budějovice
+600008151,3301,Jihočeský,České Budějovice
+600007995,3301,Jihočeský,České Budějovice
+600008002,3301,Jihočeský,České Budějovice
+600022242,3301,Jihočeský,České Budějovice
+600022277,3301,Jihočeský,České Budějovice
+600022234,3301,Jihočeský,České Budějovice
+600008045,3301,Jihočeský,České Budějovice
+600008169,3301,Jihočeský,České Budějovice
+600008215,3301,Jihočeský,České Budějovice
+600008207,3301,Jihočeský,České Budějovice
+600008118,3301,Jihočeský,České Budějovice
+600170314,3301,Jihočeský,České Budějovice
+600008185,3301,Jihočeský,České Budějovice
+600170331,3301,Jihočeský,České Budějovice
+600170292,3301,Jihočeský,České Budějovice
+600170306,3301,Jihočeský,České Budějovice
+600019578,3301,Jihočeský,České Budějovice
+600008193,3301,Jihočeský,České Budějovice
+600170276,3301,Jihočeský,České Budějovice
+600008142,3301,Jihočeský,České Budějovice
+651023599,3301,Jihočeský,České Budějovice
+600008037,3301,Jihočeský,České Budějovice
+600022226,3301,Jihočeský,České Budějovice
+600008061,3301,Jihočeský,České Budějovice
+600008029,3301,Jihočeský,České Budějovice
+600170284,3301,Jihočeský,České Budějovice
+600008231,3302,Jihočeský,Český Krumlov
+600019594,3302,Jihočeský,Český Krumlov
+600008240,3302,Jihočeský,Český Krumlov
+651016029,3302,Jihočeský,Český Krumlov
+600170349,3302,Jihočeský,Český Krumlov
+600170373,3303,Jihočeský,Jindřichův Hradec
+600008347,3303,Jihočeský,Jindřichův Hradec
+600008380,3303,Jihočeský,Jindřichův Hradec
+600170357,3303,Jihočeský,Jindřichův Hradec
+600008282,3303,Jihočeský,Jindřichův Hradec
+600022331,3303,Jihočeský,Jindřichův Hradec
+600008304,3303,Jihočeský,Jindřichův Hradec
+600008274,3303,Jihočeský,Jindřichův Hradec
+600008339,3303,Jihočeský,Jindřichův Hradec
+600019608,3303,Jihočeský,Jindřichův Hradec
+600028151,3303,Jihočeský,Jindřichův Hradec
+600008291,3303,Jihočeský,Jindřichův Hradec
+600008371,3303,Jihočeský,Jindřichův Hradec
+600008363,3303,Jihočeský,Jindřichův Hradec
+600022471,3304,Vysočina,Pelhřimov
+600028224,3304,Vysočina,Pelhřimov
+600022501,3304,Vysočina,Pelhřimov
+600008479,3304,Vysočina,Pelhřimov
+600008410,3304,Vysočina,Pelhřimov
+600008509,3304,Vysočina,Pelhřimov
+600008401,3304,Vysočina,Pelhřimov
+600008436,3304,Vysočina,Pelhřimov
+600008428,3304,Vysočina,Pelhřimov
+600008487,3304,Vysočina,Pelhřimov
+600008461,3304,Vysočina,Pelhřimov
+600028216,3304,Vysočina,Pelhřimov
+691002584,3304,Vysočina,Pelhřimov
+600008533,3305,Jihočeský,Písek
+600170381,3305,Jihočeský,Písek
+600022510,3305,Jihočeský,Písek
+600008541,3305,Jihočeský,Písek
+600008584,3305,Jihočeský,Písek
+600008592,3305,Jihočeský,Písek
+600008525,3305,Jihočeský,Písek
+600020266,3305,Jihočeský,Písek
+600019616,3305,Jihočeský,Písek
+600008550,3305,Jihočeský,Písek
+600020274,3305,Jihočeský,Písek
+600008649,3306,Jihočeský,Prachatice
+600008665,3306,Jihočeský,Prachatice
+600020282,3306,Jihočeský,Prachatice
+600008690,3306,Jihočeský,Prachatice
+600008681,3306,Jihočeský,Prachatice
+600008703,3307,Jihočeský,Strakonice
+600008754,3307,Jihočeský,Strakonice
+600008738,3307,Jihočeský,Strakonice
+600008789,3307,Jihočeský,Strakonice
+691003807,3307,Jihočeský,Strakonice
+600008746,3307,Jihočeský,Strakonice
+651016762,3307,Jihočeský,Strakonice
+600020291,3307,Jihočeský,Strakonice
+600008711,3307,Jihočeský,Strakonice
+600170403,3307,Jihočeský,Strakonice
+600020312,3307,Jihočeský,Strakonice
+600008860,3308,Jihočeský,Tábor
+600170438,3308,Jihočeský,Tábor
+600008819,3308,Jihočeský,Tábor
+600022706,3308,Jihočeský,Tábor
+691003769,3308,Jihočeský,Tábor
+600008801,3308,Jihočeský,Tábor
+600020321,3308,Jihočeský,Tábor
+600008827,3308,Jihočeský,Tábor
+600008797,3308,Jihočeský,Tábor
+651023572,3308,Jihočeský,Tábor
+600008886,3308,Jihočeský,Tábor
+600019624,3308,Jihočeský,Tábor
+600008835,3308,Jihočeský,Tábor
+600020339,3308,Jihočeský,Tábor
+600008851,3308,Jihočeský,Tábor
+600008908,3401,Plzeňský,Domažlice
+600008941,3401,Plzeňský,Domažlice
+600008932,3401,Plzeňský,Domažlice
+600170454,3401,Plzeňský,Domažlice
+600022765,3401,Plzeňský,Domažlice
+600028429,3401,Plzeňský,Domažlice
+600008924,3401,Plzeňský,Domažlice
+600008975,3402,Karlovarský,Cheb
+600066584,3402,Karlovarský,Cheb
+600009009,3402,Karlovarský,Cheb
+600170462,3402,Karlovarský,Cheb
+600019632,3402,Karlovarský,Cheb
+600009076,3402,Karlovarský,Cheb
+651011434,3402,Karlovarský,Cheb
+600008991,3402,Karlovarský,Cheb
+600009033,3402,Karlovarský,Cheb
+600009301,3403,Karlovarský,Karlovy Vary
+600009181,3403,Karlovarský,Karlovy Vary
+600009262,3403,Karlovarský,Karlovy Vary
+600009190,3403,Karlovarský,Karlovy Vary
+600009211,3403,Karlovarský,Karlovy Vary
+600009254,3403,Karlovarský,Karlovy Vary
+600009122,3403,Karlovarský,Karlovy Vary
+600009319,3403,Karlovarský,Karlovy Vary
+600009106,3403,Karlovarský,Karlovy Vary
+600009203,3403,Karlovarský,Karlovy Vary
+600009238,3403,Karlovarský,Karlovy Vary
+600019641,3403,Karlovarský,Karlovy Vary
+650003969,3403,Karlovarský,Karlovy Vary
+600022854,3403,Karlovarský,Karlovy Vary
+600009131,3403,Karlovarský,Karlovy Vary
+600009297,3403,Karlovarský,Karlovy Vary
+600009084,3403,Karlovarský,Karlovy Vary
+600009289,3403,Karlovarský,Karlovy Vary
+600009271,3403,Karlovarský,Karlovy Vary
+600028542,3403,Karlovarský,Karlovy Vary
+600009408,3404,Plzeňský,Klatovy
+600009335,3404,Plzeňský,Klatovy
+600009327,3404,Plzeňský,Klatovy
+600009424,3404,Plzeňský,Klatovy
+600009386,3404,Plzeňský,Klatovy
+600009360,3404,Plzeňský,Klatovy
+600009416,3404,Plzeňský,Klatovy
+600009696,3405,Plzeňský,Plzeň-město
+600009564,3405,Plzeňský,Plzeň-město
+600009611,3405,Plzeňský,Plzeň-město
+600009637,3405,Plzeňský,Plzeň-město
+600009548,3405,Plzeňský,Plzeň-město
+600009556,3405,Plzeňský,Plzeň-město
+600009700,3405,Plzeňský,Plzeň-město
+600170501,3405,Plzeňský,Plzeň-město
+600009530,3405,Plzeňský,Plzeň-město
+600009599,3405,Plzeňský,Plzeň-město
+600022986,3405,Plzeňský,Plzeň-město
+600009661,3405,Plzeňský,Plzeň-město
+600009602,3405,Plzeňský,Plzeň-město
+650076575,3405,Plzeňský,Plzeň-město
+600009670,3405,Plzeňský,Plzeň-město
+600009726,3405,Plzeňský,Plzeň-město
+600009459,3405,Plzeňský,Plzeň-město
+610100645,3405,Plzeňský,Plzeň-město
+600009467,3405,Plzeňský,Plzeň-město
+610100581,3405,Plzeňský,Plzeň-město
+600009718,3405,Plzeňský,Plzeň-město
+610100530,3405,Plzeňský,Plzeň-město
+600009734,3405,Plzeňský,Plzeň-město
+600019675,3405,Plzeňský,Plzeň-město
+600009491,3405,Plzeňský,Plzeň-město
+600009742,3405,Plzeňský,Plzeň-město
+600009751,3406,Plzeňský,Plzeň-jih
+600009769,3406,Plzeňský,Plzeň-jih
+600009785,3406,Plzeňský,Plzeň-jih
+600009823,3407,Plzeňský,Plzeň-sever
+600009815,3407,Plzeňský,Plzeň-sever
+600009793,3407,Plzeňský,Plzeň-sever
+600023036,3407,Plzeňský,Plzeň-sever
+600009831,3408,Plzeňský,Rokycany
+600009866,3408,Plzeňský,Rokycany
+600009858,3408,Plzeňský,Rokycany
+600028747,3408,Plzeňský,Rokycany
+600023087,3409,Karlovarský,Sokolov
+600009891,3409,Karlovarský,Sokolov
+600073017,3409,Karlovarský,Sokolov
+600009874,3409,Karlovarský,Sokolov
+600009882,3409,Karlovarský,Sokolov
+610100718,3409,Karlovarský,Sokolov
+600170527,3409,Karlovarský,Sokolov
+600009904,3409,Karlovarský,Sokolov
+651012988,3409,Karlovarský,Sokolov
+600009963,3410,Plzeňský,Tachov
+600009971,3410,Plzeňský,Tachov
+600009947,3410,Plzeňský,Tachov
+600009980,3410,Plzeňský,Tachov
+600009955,3410,Plzeňský,Tachov
+600170535,3410,Plzeňský,Tachov
+600010112,3501,Liberecký,Česká Lípa
+600009998,3501,Liberecký,Česká Lípa
+600010015,3501,Liberecký,Česká Lípa
+600010104,3501,Liberecký,Česká Lípa
+600010082,3501,Liberecký,Česká Lípa
+600010040,3501,Liberecký,Česká Lípa
+600075150,3501,Liberecký,Česká Lípa
+600010023,3501,Liberecký,Česká Lípa
+600010007,3501,Liberecký,Česká Lípa
+600020347,3501,Liberecký,Česká Lípa
+600023231,3502,Ústecký,Děčín
+600076431,3502,Ústecký,Děčín
+600010228,3502,Ústecký,Děčín
+600010171,3502,Ústecký,Děčín
+600010198,3502,Ústecký,Děčín
+600020355,3502,Ústecký,Děčín
+600170560,3502,Ústecký,Děčín
+600019683,3502,Ústecký,Děčín
+600170551,3502,Ústecký,Děčín
+600028925,3502,Ústecký,Děčín
+600023206,3502,Ústecký,Děčín
+600010279,3502,Ústecký,Děčín
+600010180,3502,Ústecký,Děčín
+600023265,3502,Ústecký,Děčín
+600019691,3502,Ústecký,Děčín
+600023249,3502,Ústecký,Děčín
+600010155,3502,Ústecký,Děčín
+600010163,3502,Ústecký,Děčín
+600010210,3502,Ústecký,Děčín
+600010287,3503,Ústecký,Chomutov
+600170586,3503,Ústecký,Chomutov
+600020363,3503,Ústecký,Chomutov
+600010368,3503,Ústecký,Chomutov
+600077594,3503,Ústecký,Chomutov
+600010295,3503,Ústecký,Chomutov
+600010350,3503,Ústecký,Chomutov
+600010309,3503,Ústecký,Chomutov
+600010325,3503,Ústecký,Chomutov
+600077535,3503,Ústecký,Chomutov
+600010449,3504,Liberecký,Jablonec nad Nisou
+600171744,3504,Liberecký,Jablonec nad Nisou
+600010490,3504,Liberecký,Jablonec nad Nisou
+600010457,3504,Liberecký,Jablonec nad Nisou
+600010481,3504,Liberecký,Jablonec nad Nisou
+600020371,3504,Liberecký,Jablonec nad Nisou
+600020380,3504,Liberecký,Jablonec nad Nisou
+600010414,3504,Liberecký,Jablonec nad Nisou
+600010473,3504,Liberecký,Jablonec nad Nisou
+600010422,3504,Liberecký,Jablonec nad Nisou
+600010511,3505,Liberecký,Liberec
+600010678,3505,Liberecký,Liberec
+600029158,3505,Liberecký,Liberec
+600010554,3505,Liberecký,Liberec
+600010538,3505,Liberecký,Liberec
+600010601,3505,Liberecký,Liberec
+600010635,3505,Liberecký,Liberec
+600010651,3505,Liberecký,Liberec
+600020398,3505,Liberecký,Liberec
+600010562,3505,Liberecký,Liberec
+600010716,3505,Liberecký,Liberec
+600010520,3505,Liberecký,Liberec
+600010546,3505,Liberecký,Liberec
+600010686,3505,Liberecký,Liberec
+600010589,3505,Liberecký,Liberec
+600010571,3505,Liberecký,Liberec
+600170594,3505,Liberecký,Liberec
+600023460,3505,Liberecký,Liberec
+600010643,3505,Liberecký,Liberec
+600170608,3505,Liberecký,Liberec
+600019713,3505,Liberecký,Liberec
+600010741,3506,Ústecký,Litoměřice
+600010830,3506,Ústecký,Litoměřice
+600010864,3506,Ústecký,Litoměřice
+600010783,3506,Ústecký,Litoměřice
+600010759,3506,Ústecký,Litoměřice
+600010805,3506,Ústecký,Litoměřice
+600010902,3506,Ústecký,Litoměřice
+600010767,3506,Ústecký,Litoměřice
+610150502,3506,Ústecký,Litoměřice
+600010911,3506,Ústecký,Litoměřice
+600010813,3506,Ústecký,Litoměřice
+600023478,3506,Ústecký,Litoměřice
+600010848,3506,Ústecký,Litoměřice
+610150375,3506,Ústecký,Litoměřice
+600010856,3506,Ústecký,Litoměřice
+600020401,3506,Ústecký,Litoměřice
+600020410,3506,Ústecký,Litoměřice
+600029191,3506,Ústecký,Litoměřice
+600010929,3507,Ústecký,Louny
+600170632,3507,Ústecký,Louny
+600011003,3507,Ústecký,Louny
+600029255,3507,Ústecký,Louny
+600023583,3507,Ústecký,Louny
+600010953,3507,Ústecký,Louny
+600011011,3507,Ústecký,Louny
+600010996,3507,Ústecký,Louny
+600011020,3507,Ústecký,Louny
+600011038,3507,Ústecký,Louny
+600170667,3508,Ústecký,Most
+600011135,3508,Ústecký,Most
+600011062,3508,Ústecký,Most
+600011046,3508,Ústecký,Most
+600011119,3508,Ústecký,Most
+600011054,3508,Ústecký,Most
+600011089,3508,Ústecký,Most
+600011151,3508,Ústecký,Most
+600011097,3508,Ústecký,Most
+600011143,3508,Ústecký,Most
+691000522,3508,Ústecký,Most
+600011127,3508,Ústecký,Most
+600170641,3508,Ústecký,Most
+600020428,3508,Ústecký,Most
+600023648,3508,Ústecký,Most
+600011178,3509,Ústecký,Teplice
+600020436,3509,Ústecký,Teplice
+600011232,3509,Ústecký,Teplice
+600023711,3509,Ústecký,Teplice
+600011267,3509,Ústecký,Teplice
+600029441,3509,Ústecký,Teplice
+600001431,3509,Ústecký,Teplice
+600084795,3509,Ústecký,Teplice
+600011216,3509,Ústecký,Teplice
+600170675,3509,Ústecký,Teplice
+600011291,3509,Ústecký,Teplice
+600011283,3509,Ústecký,Teplice
+600011305,3509,Ústecký,Teplice
+600023737,3509,Ústecký,Teplice
+600011381,3510,Ústecký,Ústí nad Labem
+600011488,3510,Ústecký,Ústí nad Labem
+600011453,3510,Ústecký,Ústí nad Labem
+600011321,3510,Ústecký,Ústí nad Labem
+600011445,3510,Ústecký,Ústí nad Labem
+600011372,3510,Ústecký,Ústí nad Labem
+600023796,3510,Ústecký,Ústí nad Labem
+600011429,3510,Ústecký,Ústí nad Labem
+600011348,3510,Ústecký,Ústí nad Labem
+600011399,3510,Ústecký,Ústí nad Labem
+600170691,3510,Ústecký,Ústí nad Labem
+600019748,3510,Ústecký,Ústí nad Labem
+600011500,3601,Vysočina,Havlíčkův Brod
+600170748,3601,Vysočina,Havlíčkův Brod
+600011551,3601,Vysočina,Havlíčkův Brod
+600019756,3601,Vysočina,Havlíčkův Brod
+600023885,3601,Vysočina,Havlíčkův Brod
+600011526,3601,Vysočina,Havlíčkův Brod
+600011593,3601,Vysočina,Havlíčkův Brod
+600011577,3601,Vysočina,Havlíčkův Brod
+600023851,3601,Vysočina,Havlíčkův Brod
+600011534,3601,Vysočina,Havlíčkův Brod
+600170730,3601,Vysočina,Havlíčkův Brod
+600011623,3602,Královéhradecký,Hradec Králové
+600011798,3602,Královéhradecký,Hradec Králové
+691000794,3602,Královéhradecký,Hradec Králové
+600011755,3602,Královéhradecký,Hradec Králové
+600011666,3602,Královéhradecký,Hradec Králové
+600011674,3602,Královéhradecký,Hradec Králové
+600011771,3602,Královéhradecký,Hradec Králové
+600023974,3602,Královéhradecký,Hradec Králové
+600023940,3602,Královéhradecký,Hradec Králové
+600011739,3602,Královéhradecký,Hradec Králové
+600024024,3602,Královéhradecký,Hradec Králové
+600011615,3602,Královéhradecký,Hradec Králové
+600170764,3602,Královéhradecký,Hradec Králové
+600011658,3602,Královéhradecký,Hradec Králové
+600011828,3602,Královéhradecký,Hradec Králové
+600011631,3602,Královéhradecký,Hradec Králové
+691004048,3602,Královéhradecký,Hradec Králové
+600011712,3602,Královéhradecký,Hradec Králové
+600011747,3602,Královéhradecký,Hradec Králové
+600011801,3602,Královéhradecký,Hradec Králové
+600024016,3602,Královéhradecký,Hradec Králové
+600019772,3602,Královéhradecký,Hradec Králové
+600011682,3602,Královéhradecký,Hradec Králové
+600011763,3602,Královéhradecký,Hradec Králové
+600011780,3602,Královéhradecký,Hradec Králové
+600011607,3602,Královéhradecký,Hradec Králové
+651014646,3602,Královéhradecký,Hradec Králové
+600011852,3603,Pardubický,Chrudim
+600024032,3603,Pardubický,Chrudim
+600011917,3603,Pardubický,Chrudim
+600011925,3603,Pardubický,Chrudim
+600011887,3603,Pardubický,Chrudim
+600011879,3603,Pardubický,Chrudim
+600170772,3603,Pardubický,Chrudim
+651033772,3603,Pardubický,Chrudim
+600011984,3603,Pardubický,Chrudim
+600019781,3603,Pardubický,Chrudim
+650004833,3603,Pardubický,Chrudim
+691000719,3603,Pardubický,Chrudim
+600011941,3603,Pardubický,Chrudim
+600012085,3604,Královéhradecký,Jičín
+600024113,3604,Královéhradecký,Jičín
+600012077,3604,Královéhradecký,Jičín
+600011992,3604,Královéhradecký,Jičín
+600012000,3604,Královéhradecký,Jičín
+600012093,3604,Královéhradecký,Jičín
+600012069,3604,Královéhradecký,Jičín
+600012018,3604,Královéhradecký,Jičín
+600012051,3604,Královéhradecký,Jičín
+600012026,3604,Královéhradecký,Jičín
+600170781,3604,Královéhradecký,Jičín
+600170802,3604,Královéhradecký,Jičín
+600012107,3605,Královéhradecký,Náchod
+600012221,3605,Královéhradecký,Náchod
+600012212,3605,Královéhradecký,Náchod
+600170829,3605,Královéhradecký,Náchod
+600012123,3605,Královéhradecký,Náchod
+600012158,3605,Královéhradecký,Náchod
+600012271,3605,Královéhradecký,Náchod
+600012115,3605,Královéhradecký,Náchod
+600012255,3605,Královéhradecký,Náchod
+600012247,3605,Královéhradecký,Náchod
+600012263,3605,Královéhradecký,Náchod
+600012204,3605,Královéhradecký,Náchod
+600024211,3605,Královéhradecký,Náchod
+600012239,3605,Královéhradecký,Náchod
+600170811,3605,Královéhradecký,Náchod
+600170837,3606,Pardubický,Pardubice
+600012301,3606,Pardubický,Pardubice
+600012450,3606,Pardubický,Pardubice
+600012417,3606,Pardubický,Pardubice
+600012468,3606,Pardubický,Pardubice
+600024270,3606,Pardubický,Pardubice
+600012433,3606,Pardubický,Pardubice
+600012298,3606,Pardubický,Pardubice
+600012310,3606,Pardubický,Pardubice
+600012425,3606,Pardubický,Pardubice
+600012514,3606,Pardubický,Pardubice
+600012328,3606,Pardubický,Pardubice
+600012379,3606,Pardubický,Pardubice
+600024296,3606,Pardubický,Pardubice
+600012409,3606,Pardubický,Pardubice
+691005559,3606,Pardubický,Pardubice
+600012484,3606,Pardubický,Pardubice
+600012352,3606,Pardubický,Pardubice
+600019799,3606,Pardubický,Pardubice
+691003009,3606,Pardubický,Pardubice
+600012522,3606,Pardubický,Pardubice
+600170853,3606,Pardubický,Pardubice
+600012361,3606,Pardubický,Pardubice
+600012549,3607,Královéhradecký,Rychnov nad Kněžnou
+600012590,3607,Královéhradecký,Rychnov nad Kněžnou
+651017459,3607,Královéhradecký,Rychnov nad Kněžnou
+600012581,3607,Královéhradecký,Rychnov nad Kněžnou
+600012573,3607,Královéhradecký,Rychnov nad Kněžnou
+600012557,3607,Královéhradecký,Rychnov nad Kněžnou
+691000107,3607,Královéhradecký,Rychnov nad Kněžnou
+600024300,3607,Královéhradecký,Rychnov nad Kněžnou
+600171752,3608,Liberecký,Semily
+600170918,3608,Liberecký,Semily
+600012654,3608,Liberecký,Semily
+600170896,3608,Liberecký,Semily
+600099296,3608,Liberecký,Semily
+600012638,3608,Liberecký,Semily
+691000093,3608,Liberecký,Semily
+600012646,3608,Liberecký,Semily
+600019802,3608,Liberecký,Semily
+600170900,3608,Liberecký,Semily
+600012751,3609,Pardubický,Svitavy
+600012701,3609,Pardubický,Svitavy
+600012841,3609,Pardubický,Svitavy
+691002797,3609,Pardubický,Svitavy
+600012794,3609,Pardubický,Svitavy
+600012760,3609,Pardubický,Svitavy
+600012816,3609,Pardubický,Svitavy
+600024474,3609,Pardubický,Svitavy
+690000014,3609,Pardubický,Svitavy
+600012859,3609,Pardubický,Svitavy
+600012735,3609,Pardubický,Svitavy
+600012808,3609,Pardubický,Svitavy
+600012786,3609,Pardubický,Svitavy
+600012727,3609,Pardubický,Svitavy
+600012824,3609,Pardubický,Svitavy
+600019811,3609,Pardubický,Svitavy
+600012867,3610,Královéhradecký,Trutnov
+600013006,3610,Královéhradecký,Trutnov
+600024695,3610,Královéhradecký,Trutnov
+600013014,3610,Královéhradecký,Trutnov
+600024679,3610,Královéhradecký,Trutnov
+600029867,3610,Královéhradecký,Trutnov
+600024687,3610,Královéhradecký,Trutnov
+651014271,3610,Královéhradecký,Trutnov
+600012913,3610,Královéhradecký,Trutnov
+600012905,3610,Královéhradecký,Trutnov
+600012875,3610,Královéhradecký,Trutnov
+600024610,3610,Královéhradecký,Trutnov
+600012883,3610,Královéhradecký,Trutnov
+600012921,3610,Královéhradecký,Trutnov
+610200381,3610,Královéhradecký,Trutnov
+600019829,3610,Královéhradecký,Trutnov
+691002142,3610,Královéhradecký,Trutnov
+600012891,3610,Královéhradecký,Trutnov
+600012930,3610,Královéhradecký,Trutnov
+600024636,3610,Královéhradecký,Trutnov
+600013022,3611,Pardubický,Ústí nad Orlicí
+600013162,3611,Pardubický,Ústí nad Orlicí
+600013031,3611,Pardubický,Ústí nad Orlicí
+600104257,3611,Pardubický,Ústí nad Orlicí
+600013090,3611,Pardubický,Ústí nad Orlicí
+600013057,3611,Pardubický,Ústí nad Orlicí
+600171833,3611,Pardubický,Ústí nad Orlicí
+600013146,3611,Pardubický,Ústí nad Orlicí
+600013120,3611,Pardubický,Ústí nad Orlicí
+600013201,3611,Pardubický,Ústí nad Orlicí
+600013065,3611,Pardubický,Ústí nad Orlicí
+600024814,3611,Pardubický,Ústí nad Orlicí
+600013197,3611,Pardubický,Ústí nad Orlicí
+600013138,3611,Pardubický,Ústí nad Orlicí
+600019837,3611,Pardubický,Ústí nad Orlicí
+600013073,3611,Pardubický,Ústí nad Orlicí
+600170993,3611,Pardubický,Ústí nad Orlicí
+600013103,3611,Pardubický,Ústí nad Orlicí
+600170977,3611,Pardubický,Ústí nad Orlicí
+600013081,3611,Pardubický,Ústí nad Orlicí
+600024792,3611,Pardubický,Ústí nad Orlicí
+600013171,3611,Pardubický,Ústí nad Orlicí
+600013235,3701,Jihomoravský,Blansko
+600013243,3701,Jihomoravský,Blansko
+600013391,3701,Jihomoravský,Blansko
+600013383,3701,Jihomoravský,Blansko
+600013294,3701,Jihomoravský,Blansko
+600024849,3701,Jihomoravský,Blansko
+600013278,3701,Jihomoravský,Blansko
+600013324,3701,Jihomoravský,Blansko
+600013367,3701,Jihomoravský,Blansko
+600171779,3701,Jihomoravský,Blansko
+600171841,3701,Jihomoravský,Blansko
+600013359,3701,Jihomoravský,Blansko
+600024903,3701,Jihomoravský,Blansko
+600013260,3701,Jihomoravský,Blansko
+600013341,3701,Jihomoravský,Blansko
+600013847,3702,Jihomoravský,Brno-město
+600013863,3702,Jihomoravský,Brno-město
+600013855,3702,Jihomoravský,Brno-město
+600019853,3702,Jihomoravský,Brno-město
+600171787,3702,Jihomoravský,Brno-město
+600013715,3702,Jihomoravský,Brno-město
+600013413,3702,Jihomoravský,Brno-město
+600013685,3702,Jihomoravský,Brno-město
+600013405,3702,Jihomoravský,Brno-město
+600019900,3702,Jihomoravský,Brno-město
+600013740,3702,Jihomoravský,Brno-město
+600013669,3702,Jihomoravský,Brno-město
+600013758,3702,Jihomoravský,Brno-město
+600013537,3702,Jihomoravský,Brno-město
+600013693,3702,Jihomoravský,Brno-město
+600024938,3702,Jihomoravský,Brno-město
+600013961,3702,Jihomoravský,Brno-město
+600013626,3702,Jihomoravský,Brno-město
+600013651,3702,Jihomoravský,Brno-město
+600013421,3702,Jihomoravský,Brno-město
+600013448,3702,Jihomoravský,Brno-město
+600013464,3702,Jihomoravský,Brno-město
+600013472,3702,Jihomoravský,Brno-město
+600013481,3702,Jihomoravský,Brno-město
+600013880,3702,Jihomoravský,Brno-město
+600013898,3702,Jihomoravský,Brno-město
+600171850,3702,Jihomoravský,Brno-město
+600013677,3702,Jihomoravský,Brno-město
+610300733,3702,Jihomoravský,Brno-město
+600024997,3702,Jihomoravský,Brno-město
+600013502,3702,Jihomoravský,Brno-město
+600013839,3702,Jihomoravský,Brno-město
+600025055,3702,Jihomoravský,Brno-město
+600013731,3702,Jihomoravský,Brno-město
+600013979,3702,Jihomoravský,Brno-město
+600013600,3702,Jihomoravský,Brno-město
+600013634,3702,Jihomoravský,Brno-město
+600013936,3702,Jihomoravský,Brno-město
+600171027,3702,Jihomoravský,Brno-město
+600013782,3702,Jihomoravský,Brno-město
+600013511,3702,Jihomoravský,Brno-město
+600013766,3702,Jihomoravský,Brno-město
+600013944,3702,Jihomoravský,Brno-město
+600013774,3702,Jihomoravský,Brno-město
+600013928,3702,Jihomoravský,Brno-město
+600013804,3702,Jihomoravský,Brno-město
+600171531,3702,Jihomoravský,Brno-město
+600013910,3702,Jihomoravský,Brno-město
+600013821,3702,Jihomoravský,Brno-město
+600025063,3702,Jihomoravský,Brno-město
+600025021,3702,Jihomoravský,Brno-město
+600171019,3702,Jihomoravský,Brno-město
+600025047,3702,Jihomoravský,Brno-město
+600019861,3702,Jihomoravský,Brno-město
+600019896,3702,Jihomoravský,Brno-město
+610300679,3702,Jihomoravský,Brno-město
+600014053,3703,Jihomoravský,Brno-venkov
+600014029,3703,Jihomoravský,Brno-venkov
+600013286,3703,Jihomoravský,Brno-venkov
+600025241,3703,Jihomoravský,Brno-venkov
+600014096,3703,Jihomoravský,Brno-venkov
+600014061,3703,Jihomoravský,Brno-venkov
+600014070,3703,Jihomoravský,Brno-venkov
+600014011,3703,Jihomoravský,Brno-venkov
+600013987,3703,Jihomoravský,Brno-venkov
+600014100,3703,Jihomoravský,Brno-venkov
+600171035,3703,Jihomoravský,Brno-venkov
+600014258,3704,Jihomoravský,Břeclav
+600014266,3704,Jihomoravský,Břeclav
+600014282,3704,Jihomoravský,Břeclav
+600014231,3704,Jihomoravský,Břeclav
+600014134,3704,Jihomoravský,Břeclav
+600014291,3704,Jihomoravský,Břeclav
+600025276,3704,Jihomoravský,Břeclav
+650071409,3704,Jihomoravský,Břeclav
+600014118,3704,Jihomoravský,Břeclav
+600014151,3704,Jihomoravský,Břeclav
+600014177,3704,Jihomoravský,Břeclav
+650071484,3704,Jihomoravský,Břeclav
+651039428,3704,Jihomoravský,Břeclav
+600014223,3704,Jihomoravský,Břeclav
+600014321,3705,Zlínský,Zlín
+600025390,3705,Zlínský,Zlín
+600014339,3705,Zlínský,Zlín
+600014517,3705,Zlínský,Zlín
+600019136,3705,Zlínský,Zlín
+600014487,3705,Zlínský,Zlín
+691004960,3705,Zlínský,Zlín
+600025314,3705,Zlínský,Zlín
+600014398,3705,Zlínský,Zlín
+600014363,3705,Zlínský,Zlín
+600014410,3705,Zlínský,Zlín
+600171051,3705,Zlínský,Zlín
+600014436,3705,Zlínský,Zlín
+600014355,3705,Zlínský,Zlín
+600014461,3705,Zlínský,Zlín
+600014452,3705,Zlínský,Zlín
+600014479,3705,Zlínský,Zlín
+600019918,3705,Zlínský,Zlín
+600014614,3706,Jihomoravský,Hodonín
+600014673,3706,Jihomoravský,Hodonín
+600171086,3706,Jihomoravský,Hodonín
+600014681,3706,Jihomoravský,Hodonín
+600025438,3706,Jihomoravský,Hodonín
+600014533,3706,Jihomoravský,Hodonín
+600171094,3706,Jihomoravský,Hodonín
+600014649,3706,Jihomoravský,Hodonín
+600014541,3706,Jihomoravský,Hodonín
+600014665,3706,Jihomoravský,Hodonín
+600014690,3706,Jihomoravský,Hodonín
+600014622,3706,Jihomoravský,Hodonín
+600030971,3706,Jihomoravský,Hodonín
+600014924,3707,Vysočina,Jihlava
+600171795,3707,Vysočina,Jihlava
+600014746,3707,Vysočina,Jihlava
+600014827,3707,Vysočina,Jihlava
+600014801,3707,Vysočina,Jihlava
+600014771,3707,Vysočina,Jihlava
+600014851,3707,Vysočina,Jihlava
+600014932,3707,Vysočina,Jihlava
+600014843,3707,Vysočina,Jihlava
+600014916,3707,Vysočina,Jihlava
+600014894,3707,Vysočina,Jihlava
+600171116,3707,Vysočina,Jihlava
+600014878,3707,Vysočina,Jihlava
+600019934,3707,Vysočina,Jihlava
+600014860,3707,Vysočina,Jihlava
+651036232,3707,Vysočina,Jihlava
+618700684,3707,Vysočina,Jihlava
+600014754,3707,Vysočina,Jihlava
+600014908,3707,Vysočina,Jihlava
+600015068,3708,Zlínský,Kroměříž
+600015050,3708,Zlínský,Kroměříž
+600025624,3708,Zlínský,Kroměříž
+680000054,3708,Zlínský,Kroměříž
+600030679,3708,Zlínský,Kroměříž
+600015033,3708,Zlínský,Kroměříž
+600014941,3708,Zlínský,Kroměříž
+600014959,3708,Zlínský,Kroměříž
+600015041,3708,Zlínský,Kroměříž
+600015092,3708,Zlínský,Kroměříž
+600171124,3708,Zlínský,Kroměříž
+600020525,3708,Zlínský,Kroměříž
+600019942,3708,Zlínský,Kroměříž
+600015076,3708,Zlínský,Kroměříž
+600014991,3708,Zlínský,Kroměříž
+600015106,3708,Zlínský,Kroměříž
+600030695,3708,Zlínský,Kroměříž
+600015149,3709,Olomoucký,Prostějov
+600015297,3709,Olomoucký,Prostějov
+600015211,3709,Olomoucký,Prostějov
+600015157,3709,Olomoucký,Prostějov
+600015173,3709,Olomoucký,Prostějov
+600015301,3709,Olomoucký,Prostějov
+600015246,3709,Olomoucký,Prostějov
+610300580,3709,Olomoucký,Prostějov
+600015289,3709,Olomoucký,Prostějov
+610300971,3709,Olomoucký,Prostějov
+600025667,3709,Olomoucký,Prostějov
+600015319,3709,Olomoucký,Prostějov
+600015181,3709,Olomoucký,Prostějov
+600025641,3709,Olomoucký,Prostějov
+600019951,3709,Olomoucký,Prostějov
+600015165,3709,Olomoucký,Prostějov
+650003578,3709,Olomoucký,Prostějov
+600015335,3710,Vysočina,Třebíč
+600015408,3710,Vysočina,Třebíč
+600025691,3710,Vysočina,Třebíč
+600015343,3710,Vysočina,Třebíč
+610250451,3710,Vysočina,Třebíč
+600015327,3710,Vysočina,Třebíč
+600015351,3710,Vysočina,Třebíč
+600015360,3710,Vysočina,Třebíč
+610250574,3710,Vysočina,Třebíč
+600015416,3710,Vysočina,Třebíč
+600015441,3710,Vysočina,Třebíč
+600015378,3710,Vysočina,Třebíč
+600015491,3711,Zlínský,Uherské Hradiště
+650002733,3711,Zlínský,Uherské Hradiště
+650067231,3711,Zlínský,Uherské Hradiště
+600015637,3712,Jihomoravský,Vyškov
+600025837,3712,Jihomoravský,Vyškov
+600171141,3712,Jihomoravský,Vyškov
+600015629,3712,Jihomoravský,Vyškov
+600025811,3712,Jihomoravský,Vyškov
+600015670,3712,Jihomoravský,Vyškov
+600015645,3712,Jihomoravský,Vyškov
+600015726,3713,Jihomoravský,Znojmo
+600015793,3713,Jihomoravský,Znojmo
+600030989,3713,Jihomoravský,Znojmo
+600015785,3713,Jihomoravský,Znojmo
+600015700,3713,Jihomoravský,Znojmo
+600025896,3713,Jihomoravský,Znojmo
+600015751,3713,Jihomoravský,Znojmo
+600015815,3713,Jihomoravský,Znojmo
+600015823,3713,Jihomoravský,Znojmo
+600015718,3713,Jihomoravský,Znojmo
+600019985,3713,Jihomoravský,Znojmo
+600016005,3714,Vysočina,Žďár nad Sázavou
+600015891,3714,Vysočina,Žďár nad Sázavou
+600015904,3714,Vysočina,Žďár nad Sázavou
+610250523,3714,Vysočina,Žďár nad Sázavou
+610250833,3714,Vysočina,Žďár nad Sázavou
+600015866,3714,Vysočina,Žďár nad Sázavou
+600015874,3714,Vysočina,Žďár nad Sázavou
+600015980,3714,Vysočina,Žďár nad Sázavou
+600031055,3714,Vysočina,Žďár nad Sázavou
+600025951,3714,Vysočina,Žďár nad Sázavou
+600025985,3714,Vysočina,Žďár nad Sázavou
+600025900,3714,Vysočina,Žďár nad Sázavou
+600016013,3714,Vysočina,Žďár nad Sázavou
+600015831,3714,Vysočina,Žďár nad Sázavou
+600015955,3714,Vysočina,Žďár nad Sázavou
+600015882,3714,Vysočina,Žďár nad Sázavou
+600015998,3714,Vysočina,Žďár nad Sázavou
+600019993,3714,Vysočina,Žďár nad Sázavou
+600015963,3714,Vysočina,Žďár nad Sázavou
+600015971,3714,Vysočina,Žďár nad Sázavou
+600016170,3801,Moravskoslezský,Bruntál
+600016226,3801,Moravskoslezský,Bruntál
+600016064,3801,Moravskoslezský,Bruntál
+600016153,3801,Moravskoslezský,Bruntál
+600016081,3801,Moravskoslezský,Bruntál
+600016056,3801,Moravskoslezský,Bruntál
+600171167,3801,Moravskoslezský,Bruntál
+600016099,3801,Moravskoslezský,Bruntál
+600016048,3801,Moravskoslezský,Bruntál
+600016145,3801,Moravskoslezský,Bruntál
+600016218,3801,Moravskoslezský,Bruntál
+600016188,3801,Moravskoslezský,Bruntál
+600016102,3801,Moravskoslezský,Bruntál
+600016447,3802,Moravskoslezský,Frýdek-Místek
+600016234,3802,Moravskoslezský,Frýdek-Místek
+600016315,3802,Moravskoslezský,Frýdek-Místek
+600016358,3802,Moravskoslezský,Frýdek-Místek
+680000062,3802,Moravskoslezský,Frýdek-Místek
+600016412,3802,Moravskoslezský,Frýdek-Místek
+600016323,3802,Moravskoslezský,Frýdek-Místek
+600016307,3802,Moravskoslezský,Frýdek-Místek
+610500678,3802,Moravskoslezský,Frýdek-Místek
+600171191,3802,Moravskoslezský,Frýdek-Místek
+600016242,3802,Moravskoslezský,Frýdek-Místek
+600016374,3802,Moravskoslezský,Frýdek-Místek
+600016331,3802,Moravskoslezský,Frýdek-Místek
+600020011,3802,Moravskoslezský,Frýdek-Místek
+650007557,3802,Moravskoslezský,Frýdek-Místek
+600016251,3802,Moravskoslezský,Frýdek-Místek
+600171183,3802,Moravskoslezský,Frýdek-Místek
+691000662,3802,Moravskoslezský,Frýdek-Místek
+600016340,3802,Moravskoslezský,Frýdek-Místek
+600016269,3802,Moravskoslezský,Frýdek-Místek
+610500732,3802,Moravskoslezský,Frýdek-Místek
+600016455,3803,Moravskoslezský,Karviná
+600016668,3803,Moravskoslezský,Karviná
+600016501,3803,Moravskoslezský,Karviná
+600016463,3803,Moravskoslezský,Karviná
+610300814,3803,Moravskoslezský,Karviná
+600016609,3803,Moravskoslezský,Karviná
+600171213,3803,Moravskoslezský,Karviná
+600016471,3803,Moravskoslezský,Karviná
+600016579,3803,Moravskoslezský,Karviná
+600016641,3803,Moravskoslezský,Karviná
+600016650,3803,Moravskoslezský,Karviná
+600016552,3803,Moravskoslezský,Karviná
+600171230,3803,Moravskoslezský,Karviná
+600171205,3803,Moravskoslezský,Karviná
+600026337,3803,Moravskoslezský,Karviná
+600016510,3803,Moravskoslezský,Karviná
+600016684,3803,Moravskoslezský,Karviná
+600016617,3803,Moravskoslezský,Karviná
+600016706,3803,Moravskoslezský,Karviná
+600016676,3803,Moravskoslezský,Karviná
+600016480,3803,Moravskoslezský,Karviná
+600171248,3803,Moravskoslezský,Karviná
+600026230,3803,Moravskoslezský,Karviná
+600020029,3803,Moravskoslezský,Karviná
+600016536,3803,Moravskoslezský,Karviná
+650078331,3803,Moravskoslezský,Karviná
+600016587,3803,Moravskoslezský,Karviná
+600016633,3803,Moravskoslezský,Karviná
+600016625,3803,Moravskoslezský,Karviná
+600016773,3804,Moravskoslezský,Nový Jičín
+600016749,3804,Moravskoslezský,Nový Jičín
+600171256,3804,Moravskoslezský,Nový Jičín
+600016781,3804,Moravskoslezský,Nový Jičín
+600016901,3804,Moravskoslezský,Nový Jičín
+600016820,3804,Moravskoslezský,Nový Jičín
+600020037,3804,Moravskoslezský,Nový Jičín
+600026396,3804,Moravskoslezský,Nový Jičín
+600016846,3804,Moravskoslezský,Nový Jičín
+600031471,3804,Moravskoslezský,Nový Jičín
+600016838,3804,Moravskoslezský,Nový Jičín
+600016854,3804,Moravskoslezský,Nový Jičín
+600016714,3804,Moravskoslezský,Nový Jičín
+600016803,3804,Moravskoslezský,Nový Jičín
+600017117,3805,Olomoucký,Olomouc
+600017087,3805,Olomoucký,Olomouc
+600017192,3805,Olomoucký,Olomouc
+600016927,3805,Olomoucký,Olomouc
+600017150,3805,Olomoucký,Olomouc
+600017028,3805,Olomoucký,Olomouc
+600026612,3805,Olomoucký,Olomouc
+600026671,3805,Olomoucký,Olomouc
+600017036,3805,Olomoucký,Olomouc
+600016935,3805,Olomoucký,Olomouc
+600017109,3805,Olomoucký,Olomouc
+600016943,3805,Olomoucký,Olomouc
+610301063,3805,Olomoucký,Olomouc
+600026621,3805,Olomoucký,Olomouc
+600017061,3805,Olomoucký,Olomouc
+600017141,3805,Olomoucký,Olomouc
+600016986,3805,Olomoucký,Olomouc
+600017168,3805,Olomoucký,Olomouc
+600017095,3805,Olomoucký,Olomouc
+600019349,3805,Olomoucký,Olomouc
+651035741,3805,Olomoucký,Olomouc
+600017133,3805,Olomoucký,Olomouc
+600017125,3805,Olomoucký,Olomouc
+600020053,3805,Olomoucký,Olomouc
+600017176,3805,Olomoucký,Olomouc
+600026701,3805,Olomoucký,Olomouc
+600016951,3805,Olomoucký,Olomouc
+600016994,3805,Olomoucký,Olomouc
+600016960,3805,Olomoucký,Olomouc
+600017214,3805,Olomoucký,Olomouc
+600017079,3805,Olomoucký,Olomouc
+600017231,3805,Olomoucký,Olomouc
+600026655,3805,Olomoucký,Olomouc
+600017249,3806,Moravskoslezský,Opava
+600026779,3806,Moravskoslezský,Opava
+600017290,3806,Moravskoslezský,Opava
+600017401,3806,Moravskoslezský,Opava
+600017311,3806,Moravskoslezský,Opava
+600017320,3806,Moravskoslezský,Opava
+600017257,3806,Moravskoslezský,Opava
+600017265,3806,Moravskoslezský,Opava
+600017419,3806,Moravskoslezský,Opava
+691002932,3806,Moravskoslezský,Opava
+600017389,3806,Moravskoslezský,Opava
+600017338,3806,Moravskoslezský,Opava
+600171868,3806,Moravskoslezský,Opava
+600020061,3806,Moravskoslezský,Opava
+600171671,3806,Moravskoslezský,Opava
+600017346,3806,Moravskoslezský,Opava
+600026787,3806,Moravskoslezský,Opava
+600143074,3806,Moravskoslezský,Opava
+600017397,3806,Moravskoslezský,Opava
+600016862,3807,Moravskoslezský,Ostrava-město
+650003551,3807,Moravskoslezský,Ostrava-město
+600016366,3807,Moravskoslezský,Ostrava-město
+691000565,3807,Moravskoslezský,Ostrava-město
+600017451,3807,Moravskoslezský,Ostrava-město
+600017567,3807,Moravskoslezský,Ostrava-město
+600017591,3807,Moravskoslezský,Ostrava-město
+600171272,3807,Moravskoslezský,Ostrava-město
+650069021,3807,Moravskoslezský,Ostrava-město
+600017737,3807,Moravskoslezský,Ostrava-město
+650077393,3807,Moravskoslezský,Ostrava-město
+600017672,3807,Moravskoslezský,Ostrava-město
+600017729,3807,Moravskoslezský,Ostrava-město
+650076991,3807,Moravskoslezský,Ostrava-město
+600017524,3807,Moravskoslezský,Ostrava-město
+600017583,3807,Moravskoslezský,Ostrava-město
+600017541,3807,Moravskoslezský,Ostrava-město
+600017478,3807,Moravskoslezský,Ostrava-město
+600017443,3807,Moravskoslezský,Ostrava-město
+600017460,3807,Moravskoslezský,Ostrava-město
+600026957,3807,Moravskoslezský,Ostrava-město
+600171299,3807,Moravskoslezský,Ostrava-město
+600017656,3807,Moravskoslezský,Ostrava-město
+600017648,3807,Moravskoslezský,Ostrava-město
+600017494,3807,Moravskoslezský,Ostrava-město
+600016595,3807,Moravskoslezský,Ostrava-město
+600017664,3807,Moravskoslezský,Ostrava-město
+651035759,3807,Moravskoslezský,Ostrava-město
+600017761,3807,Moravskoslezský,Ostrava-město
+600017699,3807,Moravskoslezský,Ostrava-město
+600171311,3807,Moravskoslezský,Ostrava-město
+600020070,3807,Moravskoslezský,Ostrava-město
+600017486,3807,Moravskoslezský,Ostrava-město
+600017532,3807,Moravskoslezský,Ostrava-město
+600017516,3807,Moravskoslezský,Ostrava-město
+600017753,3807,Moravskoslezský,Ostrava-město
+600017681,3807,Moravskoslezský,Ostrava-město
+600017702,3807,Moravskoslezský,Ostrava-město
+600017711,3807,Moravskoslezský,Ostrava-město
+650024966,3807,Moravskoslezský,Ostrava-město
+600017508,3807,Moravskoslezský,Ostrava-město
+600171302,3807,Moravskoslezský,Ostrava-město
+600017630,3807,Moravskoslezský,Ostrava-město
+600017010,3808,Olomoucký,Přerov
+600031829,3808,Olomoucký,Přerov
+600017788,3808,Olomoucký,Přerov
+600017931,3808,Olomoucký,Přerov
+600017770,3808,Olomoucký,Přerov
+600017907,3808,Olomoucký,Přerov
+600020088,3808,Olomoucký,Přerov
+600017974,3808,Olomoucký,Přerov
+600026973,3808,Olomoucký,Přerov
+600017923,3808,Olomoucký,Přerov
+600017869,3808,Olomoucký,Přerov
+600027058,3808,Olomoucký,Přerov
+600171337,3808,Olomoucký,Přerov
+600017796,3808,Olomoucký,Přerov
+600017966,3808,Olomoucký,Přerov
+600017915,3808,Olomoucký,Přerov
+600017842,3808,Olomoucký,Přerov
+600017818,3808,Olomoucký,Přerov
+600171361,3808,Olomoucký,Přerov
+600171370,3808,Olomoucký,Přerov
+600017834,3808,Olomoucký,Přerov
+600017958,3808,Olomoucký,Přerov
+600018024,3809,Olomoucký,Šumperk
+600027155,3809,Olomoucký,Šumperk
+600017982,3809,Olomoucký,Šumperk
+600171396,3809,Olomoucký,Šumperk
+600018016,3809,Olomoucký,Šumperk
+600018041,3809,Olomoucký,Šumperk
+600171388,3809,Olomoucký,Šumperk
+600018075,3809,Olomoucký,Šumperk
+600018059,3809,Olomoucký,Šumperk
+600027121,3809,Olomoucký,Šumperk
+600020096,3809,Olomoucký,Šumperk
+600018083,3809,Olomoucký,Šumperk
+600027147,3809,Olomoucký,Šumperk
+600018008,3809,Olomoucký,Šumperk
+600018067,3809,Olomoucký,Šumperk
+600018091,3809,Olomoucký,Šumperk
+600018300,3811,Olomoucký,Jeseník
+600018351,3811,Olomoucký,Jeseník
+600018342,3811,Olomoucký,Jeseník
+600018334,3811,Olomoucký,Jeseník
+600018318,3811,Olomoucký,Jeseník
+600018326,3811,Olomoucký,Jeseník
+600032001,3811,Olomoucký,Jeseník
+600027287,3811,Olomoucký,Jeseník
+651018048,3207,Středočeský,Mladá Boleslav
+600007880,3211,Středočeský,Příbram
+600027970,3211,Středočeský,Příbram
+650002733,3503,Ústecký,Chomutov
+600012361,3606,Pardubický,Pardubice
+691002584,3304,Vysočina,Pelhřimov
+600171035,3702,Jihomoravský,Brno-město
+651039428,3209,Středočeský,Praha-východ
+600014223,3704,Jihomoravský,Břeclav
+600027287,3811,Olomoucký,Jeseník
+600026655,3805,Olomoucký,Olomouc

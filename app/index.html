@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>D3 test</title>
+    <script src="http://d3js.org/d3.v2.js"></script>
+    <style type="text/css">
+        .axis path, .axis line {
+            fill: none;
+            stroke: black;
+            shape-rendering: crispEdges;
+        }
+        .axis text {
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<script type="text/javascript">
+    //vsechny krasy sveta prijdou sem
+    var w = 550;
+    var h = 300;
+
+    var dataset = {
+        "praha": {
+            "kraj": "Praha",
+            "maturanti": "100",
+            "vysledky": [2, 10, 59, 91, 72, 81, 53, 69, 30, 18]
+        },
+
+        "stredocesky": {
+            "kraj": "Praha",
+            "maturanti": "100",
+            "vysledky": [12, 10, 19, 71, 62, 71, 33, 49, 20, 11]
+        }
+    };
+
+    var id = "praha";
+    var padding = 30;
+    var barPadding = 1;
+
+    var xScale = d3.scale.ordinal()
+            .domain(d3.range(dataset[id].vysledky.length))
+            .rangeRoundBands([0, w], 0.05);
+
+    var yScale = d3.scale.linear()
+            .domain([0, d3.max(dataset[id].vysledky)])
+            .range([0, h - 50]);
+
+    //Define X axis
+    var xAxis = d3.svg.axis()
+            .scale(xScale)
+            .orient("bottom")
+            .tickValues(["0-9 %", "10-19 %", "20-29 %", "30-39 %", "40-49 %", "50-59 %", "60-69 %", "70-79 %", "80-89 %", "90-100 %"])
+            .tickSize(6, 3, 0);
+
+    var svg = d3.select("body")
+            .append("svg")
+            .attr("width", w)
+            .attr("height", h);
+
+
+    svg.selectAll("rect")
+            .data(dataset[id].vysledky)
+            .enter()
+            .append("rect")
+            .attr("x", function (d, i) {
+                return xScale(i);
+            })
+            .attr("y", function (d) {
+                return h - 40 - yScale(d);
+            })
+            .attr("width", xScale.rangeBand())
+            .attr("height", function (d) {
+                return yScale(d);
+            })
+            .attr("fill", "#2F6083");
+
+    svg.selectAll("text")
+            .data(dataset[id].vysledky)
+            .enter()
+            .append("text")
+            .text(function (d) {
+                return d;
+            })
+            .attr("text-anchor", "middle")
+            .attr("x", function (d, i) {
+                return xScale(i) + xScale.rangeBand() / 2;
+            })
+            .attr("y", function (d) {
+                if (yScale(d) < 10) {
+                    return h - 40 - (yScale(d));
+                } else {
+                    return h - 15 - (yScale(d));
+                }
+
+            })
+            .attr("font-family", "sans-serif")
+            .attr("font-size", "20px")
+            .attr("font-weight", "bold")
+            .attr("fill", "#C0DECB");
+
+    //Create X axis
+    svg.append("g")
+            .attr("class", "axis")
+            .attr("transform", "translate(0," + (h - padding) + ")")
+            .call(xAxis);
+    //update
+    function updater(ident) {
+        id = ident;
+        svg.selectAll("rect")
+                .data(dataset[id].vysledky)
+                .transition()
+                .attr("x", function (d, i) {
+                    return xScale(i);
+                })
+                .attr("y", function (d) {
+                    return h - 40 - yScale(d);
+                })
+                .attr("width", xScale.rangeBand())
+                .attr("height", function (d) {
+                    return yScale(d);
+                })
+                .attr("fill", "#2F6083");
+        svg.selectAll("text")
+                .data(dataset[id].vysledky)
+                .transition()
+                .text(function (d) {
+                    return d;
+                })
+                .attr("text-anchor", "middle")
+                .attr("x", function (d, i) {
+                    return xScale(i) + xScale.rangeBand() / 2;
+                })
+                .attr("y", function (d) {
+                    if (yScale(d) < 10) {
+                        return h - 40 - (yScale(d));
+                    } else {
+                        return h - 15 - (yScale(d));
+                    }
+                });
+    };
+</script>
+<button onclick="updater('stredocesky')">Středočeský</button>
+<button onclick="updater('praha')">Praha</button>
+</body>
+
+</html>
