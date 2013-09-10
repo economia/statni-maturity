@@ -3,8 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>D3 test</title>
-    <script src="http://d3js.org/d3.v2.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>Státní maturity</title>
+    <link rel="stylesheet" type="text/css" href="http://service.ihned.cz/js/tooltip/v1.1.2.css" />
+    <script src="http://service.ihned.cz/js/modernizr/v2.6.2.svg.min.js"></script>
+    <script src="http://service.ihned.cz/js/jquery.min.js"></script>
+    <script src="http://service.ihned.cz/js/d3/v3.3.2.min.js"></script>
+    <script src="http://service.ihned.cz/js/tooltip/v1.1.2.min.js"></script>
     <style type="text/css">
         .axis path, .axis line {
             fill: none;
@@ -23,21 +28,24 @@
     //vsechny krasy sveta prijdou sem
     var w = 550;
     var h = 300;
-
-    var dataset = {
-        "praha": {
-            "kraj": "Praha",
-            "maturanti": "100",
-            "vysledky": [2, 10, 59, 91, 72, 81, 53, 69, 30, 18]
-        },
-
-        "stredocesky": {
-            "kraj": "Praha",
-            "maturanti": "100",
-            "vysledky": [12, 10, 19, 71, 62, 71, 33, 49, 20, 11]
-        }
-    };
-
+    d3.csv('./okresy_vysledky.csv')
+        .row(function(row) {
+            return {
+                id: +row['red_izo'],
+                nazev: row['red_naz'],
+                okres_id: +row['KODOK'],
+                matematika: parseFloat(row['MA DT Z']),
+                cestina_test: parseFloat(row['CJ DT Z']),
+                cestina_prace: parseFloat(row['CJ PP Z']),
+                cestina_ustni: parseFloat(row['CJ UZ Z']),
+                aj_test: parseFloat(row['AJ DT Z']),
+                aj_prace: parseFloat(row['AJ PP Z']),
+                aj_ustni: parseFloat(row['AJ UZ Z'])
+            }
+        })
+        .get(function(err, data) {
+            console.log(data);
+    });
     var id = "praha";
     var padding = 30;
     var barPadding = 1;
