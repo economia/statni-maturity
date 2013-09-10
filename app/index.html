@@ -24,18 +24,26 @@
 </head>
 
 <body>
+    <div id='selectors'></div>
 <script type="text/javascript">
     //vsechny krasy sveta prijdou sem
     var w = 650;
     var h = 300;
     var centerMargin = 10;
     var alldata = null;
+    var okresy_ids = [];
+    var okresy_nazvy = [];
     d3.csv('./okresy_vysledky.csv')
         .row(function(row) {
+            var okres_id = +row['KODOK'];
+            if(okresy_ids.indexOf(okres_id) === -1) {
+                okresy_ids.push(okres_id);
+                okresy_nazvy.push(row['NAZOK']);
+            }
             return {
                 id: +row['red_izo'],
                 nazev: row['red_naz'],
-                okres_id: +row['KODOK'],
+                okres_id: okres_id,
                 matematika: parseFloat(row['MA DT Z']),
                 cestina_test: parseFloat(row['CJ DT Z']),
                 cestina_prace: parseFloat(row['CJ PP Z']),
@@ -47,9 +55,29 @@
         })
         .get(function(err, data) {
             alldata = data;
+            var okresy = okresy_ids.map(function(id, index) {
+                return {id: id, nazev: okresy_nazvy[index]};
+            })
+            drawSelectors(okresy);
             display(bars_right, 3100, 'matematika');
-            display(bars_left, 3807, 'matematika');
+            display(bars_left, 3100, 'matematika');
     });
+    function drawSelectors(okresy) {
+        [bars_left, bars_right].forEach(function(bars) {
+            var $select = $("<select>")
+                .appendTo($('#selectors'))
+                .on('change', function() {
+                    display(bars, this.value, 'matematika');
+                });
+            okresy.forEach(function(it) {
+                $("<option></option>")
+                    .html(it.nazev)
+                    .val(it.id)
+                    .appendTo($select)
+            })
+
+        });
+    }
     function display(group, okres_id, predmet_property) {
         var data = alldata.filter(function(row) {
             return row.okres_id == okres_id;
