@@ -172,6 +172,7 @@
                 .on('change', function() {
                     display(bars, this.value, predmet);
                     update(bars);
+                    update(bars.oppositeGroup);
                 });
             okresy.forEach(function(it) {
                 $("<option></option>")
