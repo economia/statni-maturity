@@ -56,7 +56,6 @@
         });
         var binned = histogram(data);
         var lengths = binned.map(function(it) {return it.length});
-        xScale.domain([0, d3.max(lengths)]);
         bars.selectAll('rect')
             .data(binned)
             .enter().append('rect');
@@ -76,6 +75,7 @@
         .bins(bins);
 
     var xScale = d3.scale.linear()
+        .domain([0, 90])
         .range([0, w]);
 
     var yScale = d3.scale.ordinal()
