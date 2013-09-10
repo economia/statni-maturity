@@ -191,7 +191,7 @@
 
     var yScale = d3.scale.ordinal()
         .domain([0,1,2,3,4,5,6,7,8,9,10])
-        .rangeRoundBands([0, h], 0.05);
+        .rangeRoundBands([h, 0], 0.05);
 
     var svg = d3.select("body")
             .append("div")
