@@ -17,6 +17,22 @@
             margin: 0px;
             font-family: arial, helvetica, sans-serif;
         }
+        svg {
+            margin-top: 40px;
+        }
+        #selectors {
+            width: 650px;
+            position: relative;
+            background:  red;
+        }
+        #selectors .left {
+            position:  absolute;
+            left: 0px;
+        }
+        #selectors .right {
+            position:  absolute;
+            right: 0px;
+        }
         .axis path, .axis line {
             fill: none;
             stroke: black;
@@ -69,9 +85,13 @@
             display(bars_left, 3100, 'matematika');
     });
     function drawSelectors(okresy) {
-        [bars_left, bars_right].forEach(function(bars) {
-            var $select = $("<select>")
+        ['left', 'right'].forEach(function(it) {
+            var $parent = $("<div></div>")
                 .appendTo($('#selectors'))
+                .addClass(it);
+            var bars = it == 'left' ? bars_left : bars_right;
+            var $select = $("<select>")
+                .appendTo($parent)
                 .on('change', function() {
                     display(bars, this.value, 'matematika');
                 });
