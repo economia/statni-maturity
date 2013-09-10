@@ -239,9 +239,9 @@
     function update(group) {
         divs = group.selectAll('div.rect')
         divs.select("span")
-            .html(function(d) {return d.count})
+            .html(function(d) {return Math.round(d.percentage * 100) + "%"})
             .attr('class', function(d) {
-                if(xScale(d.percentage) < 30) {
+                if(xScale(d.percentage) < 50) {
                     return "txt short";
                 } else {
                     return "txt long";
