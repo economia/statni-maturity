@@ -57,33 +57,42 @@
             return row[predmet_property];
         });
         var binned = histogram(data);
-        var lengths = binned.map(function(it) {return it.length});
+        var sum = 0;
+        var lengths = binned.map(function(it) {
+            sum += it.length
+            return it.length;
+        });
+        var percentages = lengths.map(function(it) {
+            return it / sum;
+        })
         group.selectAll('rect')
-            .data(binned)
+            .data(percentages)
             .enter().append('rect');
         update(group);
 
     }
     function update(group) {
         group.selectAll('rect')
+            .transition()
+            .duration(800)
             .attr('x', function(d) {
                 if (group === bars_right) {
                     return 0;
                 } else {
-                    return (w/2) - xScale(d.length) - (centerMargin / 2);
+                    return (w/2) - xScale(d) - (centerMargin / 2);
                 }
             })
             .attr('y', function(d, i) {
                 return yScale(i);
             })
             .attr('width', function(d) {
-                return xScale(d.length)})
+                return xScale(d)})
             .attr('height', yScale.rangeBand())
     }
     var histogram = d3.layout.histogram()
         .bins([0,10,20,30,40,50,60,70,80,90,100]);
     var xScale = d3.scale.linear()
-        .domain([0, 90])
+        .domain([0, 0.9])
         .range([0.5, w / 2]);
 
     var yScale = d3.scale.ordinal()
