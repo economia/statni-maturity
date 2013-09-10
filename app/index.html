@@ -150,10 +150,11 @@
             font-size: 0.8em;
         }
         #schoolList {
+            display: none;
             position: absolute;
             top: 0px;
-            left: 0px;
-            width: 650px;
+            left: 65px;
+            width: 585px;
             height: 335px;
             overflow: auto;
             list-style: none;
@@ -181,6 +182,9 @@
         .list #selectors {
             top: -300px;
         }
+        .list #schoolList {
+            display: block;
+        }
         .list .graph .verticalMarks {
             top: -500px;
         }
@@ -193,6 +197,37 @@
         .list2 .graph {
             display: none;
         }
+        body a.backButton {
+          position: absolute;
+          top: 15px;
+          left: 15px;
+          display: block;
+          width: 38px;
+          height: 38px;
+          border: 2px solid #1d1d1d;
+          transition: left 1s;
+          border-radius: 50%;
+          -o-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -webkit-border-radius: 50%;
+          background: #fff url("./img/back.png") -2px -2px;
+        }
+        body a.backButton:hover {
+          background-color: #eee;
+          cursor: pointer;
+        }
+        body a.backButton:active {
+          background-color: #aaa;
+        }
+        body a.backButton img {
+          position: absolute;
+          top: -2px;
+          left: -2px;
+        }
+        body a.backButton.disabled {
+          left: -80px;
+        }
     </style>
 </head>
 
@@ -200,6 +235,7 @@
     <div id='selectors'></div>
     <ul id='schoolList'></ul>
     <div class="graph"></div>
+    <a href="#" class="backButton disabled"></a>
 <script type="text/javascript">
     //vsechny krasy sveta prijdou sem
     var w = 650;
@@ -365,10 +401,19 @@
     }
 
     function toggleGraphAndList() {
-        $('body').toggleClass('list');
-        setTimeout(function() {
-            $('body').toggleClass('list2');
-        }, 800)
+        $backButton.toggleClass('disabled');
+        var $body = $('body');
+        if($body.hasClass('list')) {
+            $('body').removeClass('list2');
+            setTimeout(function() {
+                $('body').removeClass('list');
+            }, 10)
+        } else {
+            $('body').addClass('list');
+            setTimeout(function() {
+                $('body').addClass('list2');
+            }, 800)
+        }
     }
     function displayList(group) {
         schoolList.empty();
@@ -389,7 +434,9 @@
 
         toggleGraphAndList();
     }
-
+    var $backButton = $('a.backButton')
+        .on('click', toggleGraphAndList);
+    console.log($backButton);
     var histogram = d3.layout.histogram()
         .bins([0,10,20,30,40,50,60,70,80,90,100]);
     var xScale = d3.scale.linear()
