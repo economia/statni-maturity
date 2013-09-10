@@ -155,11 +155,12 @@
             sum += it.length
             return it.length;
         });
-        var percentages = lengths.map(function(it) {
-            return it / sum;
+        var data = lengths.map(function(it) {
+            percentage = it / sum;
+            return {percentage: percentage, count: it}
         })
         group.selectAll('div')
-            .data(percentages)
+            .data(data)
             .enter().append('div');
         update(group);
 
@@ -172,14 +173,14 @@
                 if (group === bars_right) {
                     return "0px";
                 } else {
-                    return (w/2) - xScale(d) - (centerMargin / 2) + "px";
+                    return (w/2) - xScale(d.percentage) - (centerMargin / 2) + "px";
                 }
             })
             .style('top', function(d, i) {
                 return yScale(i) + "px";
             })
             .style('width', function(d) {
-                return xScale(d) + "px"
+                return xScale(d.percentage) + "px"
             })
             .style('height', yScale.rangeBand() + "px")
     }
