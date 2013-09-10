@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <title>Státní maturity</title>
     <link rel="stylesheet" type="text/css" href="http://service.ihned.cz/js/tooltip/v1.1.2.css" />
+    <link rel="stylesheet" type="text/css" href="http://service.ihned.cz/js/chosen/chosen.min.css" />
     <script src="http://service.ihned.cz/js/modernizr/v2.6.2.svg.min.js"></script>
     <script src="http://service.ihned.cz/js/jquery.min.js"></script>
     <script src="http://service.ihned.cz/js/d3/v3.3.2.min.js"></script>
     <script src="http://service.ihned.cz/js/tooltip/v1.1.2.min.js"></script>
+    <script src="http://service.ihned.cz/js/chosen/chosen.jquery.min.js"></script>
     <style type="text/css">
         .axis path, .axis line {
             fill: none;
@@ -75,6 +77,7 @@
                     .val(it.id)
                     .appendTo($select)
             })
+            $select.chosen();
 
         });
     }
