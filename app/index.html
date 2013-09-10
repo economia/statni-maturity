@@ -253,14 +253,12 @@
             return row[predmet_property];
         });
         var binned = histogram(data);
-        var sum = 0;
-        var lengths = binned.map(function(it) {
-            sum += it.length
-            return it.length;
-        });
-        var data = lengths.map(function(it) {
-            percentage = it / sum;
-            return {percentage: percentage, count: it}
+        var sum = binned.reduce(function(partial, it) {
+            return partial += it.length
+        }, 0);
+        var data = binned.map(function(it) {
+            percentage = it.length / sum;
+            return {percentage: percentage, count: it.length, content: it}
         })
         group.currentData = data;
         var rects = group.selectAll('div.rect')
