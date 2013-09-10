@@ -436,7 +436,6 @@
     }
     var $backButton = $('a.backButton')
         .on('click', toggleGraphAndList);
-    console.log($backButton);
     var histogram = d3.layout.histogram()
         .bins([0,10,20,30,40,50,60,70,80,90,100]);
     var xScale = d3.scale.linear()
