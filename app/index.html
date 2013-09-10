@@ -28,6 +28,7 @@
     //vsechny krasy sveta prijdou sem
     var w = 650;
     var h = 300;
+    var centerMargin = 10;
     var alldata = null;
     d3.csv('./okresy_vysledky.csv')
         .row(function(row) {
@@ -46,7 +47,8 @@
         })
         .get(function(err, data) {
             alldata = data;
-            display(bars, 3100, 'matematika');
+            display(bars_right, 3100, 'matematika');
+            display(bars_left, 3807, 'matematika');
     });
     function display(group, okres_id, predmet_property) {
         var data = alldata.filter(function(row) {
@@ -64,7 +66,13 @@
     }
     function update(group) {
         group.selectAll('rect')
-            .attr('x', 0)
+            .attr('x', function(d) {
+                if (group === bars_right) {
+                    return 0;
+                } else {
+                    return (w/2) - xScale(d.length) - (centerMargin / 2);
+                }
+            })
             .attr('y', function(d, i) {return yScale(i)})
             .attr('width', function(d) {
                 return xScale(d.length)})
@@ -76,7 +84,7 @@
 
     var xScale = d3.scale.linear()
         .domain([0, 90])
-        .range([0, w]);
+        .range([0, w / 2]);
 
     var yScale = d3.scale.ordinal()
         .domain(bins)
@@ -87,7 +95,9 @@
             .attr("width", w)
             .attr("height", h);
 
-    var bars = svg.append('g');
+    var bars_right = svg.append('g')
+        .attr('transform', 'translate(' + ((w + centerMargin) / 2) + ', 0)');
+    var bars_left = svg.append('g');
 </script>
 <button onclick="updater('stredocesky')">Středočeský</button>
 <button onclick="updater('praha')">Praha</button>
