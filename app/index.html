@@ -26,9 +26,24 @@
             position: absolute;
             width: 303px;
         }
-        .graph .left .rect, .graph .right .rect {
+        .graph .rect {
             position: absolute;
-            background: black;
+            background: #85BEE6;
+        }
+        .graph .right .rect {
+            background: #5AA7DD;
+        }
+        .graph .opposite {
+            position: absolute;
+            top: 0px;
+        }
+        .graph .left .opposite {
+            right: 0px;
+            background: #5AA7DD;
+        }
+        .graph .right .opposite {
+            left: 0px;
+            background: #85BEE6;
         }
         .graph .txt {
             position: absolute;
@@ -134,6 +149,8 @@
             drawPredmetSelector();
             display(bars_right, 3100, predmet);
             display(bars_left, 3702, predmet);
+            update(bars_right);
+            update(bars_left);
     });
     function drawOkresSelectors(okresy) {
         ['left', 'right'].forEach(function(it) {
@@ -146,6 +163,7 @@
                 .appendTo($parent)
                 .on('change', function() {
                     display(bars, this.value, predmet);
+                    update(bars);
                 });
             okresy.forEach(function(it) {
                 $("<option></option>")
@@ -196,13 +214,17 @@
             percentage = it / sum;
             return {percentage: percentage, count: it}
         })
-        group.selectAll('div.rect')
+        group.currentData = data;
+        var rects = group.selectAll('div.rect')
             .data(data)
             .enter()
                 .append('div')
                 .attr('class', 'rect')
-                .append('span');
-        update(group);
+        rects.append('div')
+            .attr('class', 'opposite')
+            .style('height', yScale.rangeBand() + "px");
+        rects.append('span');
+
 
     }
     function update(group) {
@@ -216,6 +238,21 @@
                     return "txt long";
                 }
             })
+        divs.select('.opposite')
+            .transition()
+            .duration(800)
+            .style('width', function(d, i) {
+                if(!group.oppositeGroup.currentData) {
+                    return "0px";
+                }
+                var opposite = group.oppositeGroup.currentData[i];
+                if(opposite.percentage < d.percentage) {
+                    return xScale(opposite.percentage) + "px"
+                } else {
+                    return "0px";
+                }
+            })
+
         divs
             .transition()
             .duration(800)
@@ -253,6 +290,8 @@
         .style('left', ((w + centerMargin) / 2) + 'px');
     var bars_left = svg.append('div')
         .attr('class', 'left');
+    bars_left.oppositeGroup = bars_right;
+    bars_right.oppositeGroup = bars_left;
     var axes = [20,40,60,80];
     [bars_right, bars_left].forEach(function(bars) {
         var direction = bars == bars_right ? 'left' : 'right';
