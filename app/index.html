@@ -17,8 +17,17 @@
             margin: 0px;
             font-family: arial, helvetica, sans-serif;
         }
-        svg {
-            margin-top: 40px;
+        .graph {
+            position: absolute;
+        }
+        .graph .left,
+        .graph .right {
+            top: 40px;
+            position: relative;
+        }
+        .graph .left div, .graph .right div {
+            position: absolute;
+            background: black;
         }
         #selectors {
             width: 650px;
@@ -120,48 +129,50 @@
         var percentages = lengths.map(function(it) {
             return it / sum;
         })
-        group.selectAll('rect')
+        group.selectAll('div')
             .data(percentages)
-            .enter().append('rect');
+            .enter().append('div');
         update(group);
 
     }
     function update(group) {
-        group.selectAll('rect')
+        group.selectAll('div')
             .transition()
             .duration(800)
-            .attr('x', function(d) {
+            .style('left', function(d) {
                 if (group === bars_right) {
-                    return 0;
+                    return "0px";
                 } else {
-                    return (w/2) - xScale(d) - (centerMargin / 2);
+                    return (w/2) - xScale(d) - (centerMargin / 2) + "px";
                 }
             })
-            .attr('y', function(d, i) {
-                return yScale(i);
+            .style('top', function(d, i) {
+                return yScale(i) + "px";
             })
-            .attr('width', function(d) {
-                return xScale(d)})
-            .attr('height', yScale.rangeBand())
+            .style('width', function(d) {
+                return xScale(d) + "px"
+            })
+            .style('height', yScale.rangeBand() + "px")
     }
     var histogram = d3.layout.histogram()
         .bins([0,10,20,30,40,50,60,70,80,90,100]);
     var xScale = d3.scale.linear()
         .domain([0, 0.9])
-        .range([0.5, w / 2]);
+        .range([1, w / 2]);
 
     var yScale = d3.scale.ordinal()
         .domain([0,1,2,3,4,5,6,7,8,9,10])
         .rangeRoundBands([0, h], 0.05);
 
     var svg = d3.select("body")
-            .append("svg")
-            .attr("width", w)
-            .attr("height", h);
+            .append("div")
+            .attr('class', 'graph')
 
-    var bars_right = svg.append('g')
-        .attr('transform', 'translate(' + ((w + centerMargin) / 2) + ', 0)');
-    var bars_left = svg.append('g');
+    var bars_right = svg.append('div')
+        .attr('class', 'right')
+        .style('left', ((w + centerMargin) / 2) + 'px');
+    var bars_left = svg.append('div')
+        .attr('class', 'left');
 </script>
 </body>
 
