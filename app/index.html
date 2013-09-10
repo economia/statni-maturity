@@ -29,6 +29,29 @@
             position: absolute;
             background: black;
         }
+        .graph span {
+            position: absolute;
+            top: 3px;
+            display: block;
+            width: 40px;
+        }
+        .graph span.long {
+            color: white;
+        }
+        .graph .left span.long {
+            left: 10px;
+        }
+        .graph .left span.short {
+            left: -50px;
+            text-align: right;
+        }
+        .graph .right span.short {
+            right: -50px;
+        }
+        .graph .right span.long {
+            right: 10px;
+            text-align: right;
+        }
         #selectors {
             width: 650px;
             position: relative;
@@ -161,13 +184,22 @@
         })
         group.selectAll('div')
             .data(data)
-            .enter().append('div');
+            .enter().append('div').append('span');
         update(group);
 
     }
     function update(group) {
-        group.selectAll('div')
-            .transition()
+        divs = group.selectAll('div')
+        divs.select("span")
+            .html(function(d) {return d.count})
+            .attr('class', function(d) {
+                if(xScale(d.percentage) < 30) {
+                    return "short";
+                } else {
+                    return "long";
+                }
+            })
+        divs.transition()
             .duration(800)
             .style('left', function(d) {
                 if (group === bars_right) {
