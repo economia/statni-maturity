@@ -159,6 +159,8 @@
             overflow: auto;
             list-style: none;
             padding-left: 0px;
+            opacity: 1;
+            transition: 0.6s;
         }
         #schoolList li {
             position: relative;
@@ -182,8 +184,12 @@
         .list #selectors {
             top: -300px;
         }
-        .list #schoolList {
+        .list #schoolList,
+        #schoolList.fading {
             display: block;
+        }
+        #schoolList.fading {
+            opacity: 0;
         }
         .list .graph .verticalMarks {
             top: -500px;
@@ -404,10 +410,14 @@
         $backButton.toggleClass('disabled');
         var $body = $('body');
         if($body.hasClass('list')) {
+            schoolList.classed('fading', true);
             $body.removeClass('list2');
             setTimeout(function() {
                 $body.removeClass('list');
             }, 10)
+            setTimeout(function() {
+                schoolList.classed('fading', false);
+            }, 400)
         } else {
             $body.addClass('list');
             setTimeout(function() {
