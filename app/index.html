@@ -404,14 +404,14 @@
         $backButton.toggleClass('disabled');
         var $body = $('body');
         if($body.hasClass('list')) {
-            $('body').removeClass('list2');
+            $body.removeClass('list2');
             setTimeout(function() {
-                $('body').removeClass('list');
+                $body.removeClass('list');
             }, 10)
         } else {
-            $('body').addClass('list');
+            $body.addClass('list');
             setTimeout(function() {
-                $('body').addClass('list2');
+                $body.addClass('list2');
             }, 800)
         }
     }
