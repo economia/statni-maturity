@@ -258,9 +258,14 @@
                 okresy_ids.push(okres_id);
                 okresy_nazvy.push(row['NAZOK']);
             }
+            var web = row['www'];
+            if(web.substr(0, 4) !== 'http') {
+                web = 'http://' + web;
+            }
             return {
                 id: +row['red_izo'],
-                nazev: row['red_naz'],
+                nazev: row['nazev_plny'],
+                web: web,
                 okres_id: okres_id,
                 matematika: parseFloat(row['MA DT Z']),
                 cestina_test: parseFloat(row['CJ DT Z']),
@@ -436,7 +441,7 @@
             .append("li");
         listItem.append('span')
             .attr('class', 'nazev')
-            .html(function(d) { return d.nazev + " <em>(" + d.id + ")</em>"; });
+            .html(function(d) { return d.nazev; });
 
         listItem.append('span')
             .attr('class', 'result')
