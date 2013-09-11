@@ -436,7 +436,7 @@
             .append("li");
         listItem.append('span')
             .attr('class', 'nazev')
-            .html(function(d) { return d.nazev; });
+            .html(function(d) { return d.nazev + " <em>(" + d.id + ")</em>"; });
 
         listItem.append('span')
             .attr('class', 'result')
