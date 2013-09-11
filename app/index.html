@@ -416,7 +416,7 @@
         }
     }
     function displayList(group) {
-        schoolList.empty();
+        schoolList.selectAll('li').remove();
         group.content.sort(function(schoolA, schoolB) {
             return schoolB[predmet] - schoolA[predmet];
         });
