@@ -179,7 +179,11 @@
             text-align: center;
         }
         #schoolList li .nazev {
-            padding-left: 40px;
+            display: block;
+            margin-left: 40px;
+        }
+        #schoolList li .nazev a {
+            color: #174F82;
         }
         .list #selectors {
             top: -300px;
@@ -259,7 +263,7 @@
                 okresy_nazvy.push(row['NAZOK']);
             }
             var web = row['www'];
-            if(web.substr(0, 4) !== 'http') {
+            if(web.length && web.substr(0, 4) !== 'http') {
                 web = 'http://' + web;
             }
             return {
@@ -441,7 +445,13 @@
             .append("li");
         listItem.append('span')
             .attr('class', 'nazev')
-            .html(function(d) { return d.nazev; });
+            .html(function(d) {
+                str = d.nazev;
+                if(d.web) {
+                    str = "<a href='" + d.web + "' target='_blank'>" + str + "</a>";
+                }
+                return str;
+            });
 
         listItem.append('span')
             .attr('class', 'result')
