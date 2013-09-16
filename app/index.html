@@ -306,11 +306,23 @@
                     update(bars);
                     update(bars.oppositeGroup);
                 });
+            okresy.sort(function(a, b) {
+                if(a.nazev > b.nazev) {
+                    return 1;
+                } else if (b.nazev > a.nazev) {
+                    return -1;
+                } else {
+                    return 0;
+                }
+            })
             okresy.forEach(function(it) {
-                $("<option></option>")
+                var opt = $("<option></option>")
                     .html(it.nazev)
                     .val(it.id)
                     .appendTo($select)
+                if(it.id == 3100) {
+                    opt.attr('selected', true);
+                }
             })
             $select.chosen();
         });
